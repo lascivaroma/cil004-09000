@@ -19,3 +19,8 @@ The source of the data are :
 - Replace `&longitude` by `&amp;longitude`
 - Replace `&latitude` by `&amp;latitude`
 - Replace `br>` with  `br\>`
+- Removed last `<p>` (`<p style="font-size:110%;"><a href="http://db.edcs.eu/epigr/epi.php?s_sprache=en"><img src="Epigraphik%20Datenbank_files/back.gif" alt="Link zurueck zur Suchseite" border="0" align="bottom"/></a><br/><br/></p>`)
+
+### CHET-C
+
+Developed by Hugh Cayless and Tom Elliott (University of North Carolina at Chapel Hill). Converts epigraphic texts using conventional editorial sigla into EpiDoc-compliant XML. 
