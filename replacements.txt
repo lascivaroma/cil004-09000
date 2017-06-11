@@ -10,6 +10,9 @@
 # occurences of the symbol in the second capturing group inside the first capturing group.  In
 # regular expressions, capturing groups are delimited by parentheses.
 
+([^\s/]+)                                   =   <w n="%mkIDW">$1</w>
+\/(?!\w)									=	<lb n="%mkID1"/>
+
 
 # Single Angle Bracket Enclosures
 # Placed first before XML tags are inserted
@@ -101,7 +104,6 @@
 
 # Line Break
 \n											=	<lb n="%mkID1"/>
-\/											=	<lb n="%mkID1"/>
 
 # Text Direction Right to Left (Unicode LEFTWARDS ARROW 2190)
 ^((←)+)										=	<lb rend="right-to-left"/>
@@ -112,5 +114,6 @@
 # post conversion cleanup
 #
 ̣                                       		=   null
+
 
 

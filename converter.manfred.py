@@ -1,7 +1,7 @@
 import MyCapytain
 from lxml import etree
 import re
-from chetc import chetc
+from chetcorig import Epigraph2Markup
 
 with open("replacements.txt") as f:
     replacements = f.read()
@@ -13,6 +13,8 @@ TRISMEGISTOS = re.compile("http:\/\/db\.edcs\.eu\/epigr\/partner\.php\?param=.*(
 TRISMEGISTOS_PLACE = re.compile("http:\/\/www\.trismegistos\.org\/place\/(\w+)")
 PUBLICATION = re.compile("publication:<\/b>([a-z,\-\+\/\*A-Z =\(\)0-9]+)<[ab]")
 ORT = re.compile("ort='([[a-zA-Z\s\/\-]+)'&amp;latitude='(\d+\.\d+)'&amp;longitude='(\d+\.\d+)'&amp;")
+
+epi_converter = Epigraph2Markup(replacements)
 
 with open("sources/Epigraphik Datenbank.html") as source:
     xml = etree.parse(source)
@@ -67,7 +69,7 @@ with open("sources/Epigraphik Datenbank.html") as source:
         i += 1
 
         text = p.xpath(".//br")[-1].tail.replace("&lt;", "<").replace("\n", "").replace("&gt;", ">")
-        converter = chetc.Epigraph2Markup(replacements)
-        converter.init()
-        print(converter.convert(text))
-        print(converter.id)
+        text_converted = epi_converter.convert(replacements)
+        print(text)
+        print(text_converted)
+        print()
