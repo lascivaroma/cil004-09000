@@ -56,6 +56,7 @@
 # Parentheses
 (\S+)\((-\s*)+\)                        			=   <abbr>$1</abbr>
 ([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)		=   <expan><abbr>$1</abbr><ex>$2</ex><abbr>$3</abbr></expan>
+([A-Za-z0-9]+)?\(([A-Za-z0-9]+)\?\)([A-Za-z0-9]+)?  =   <expan><abbr>$1</abbr><ex cert="low">$2</ex><abbr>$3</abbr></expan>
 \(([A-Za-z0-9]+)\)([A-Za-z0-9]+)					=   <expan><ex>$1</ex><abbr>$2</abbr></expan>
 ([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)					=   <expan><abbr>$1</abbr><ex>$2</ex></expan>
 <\/expan>\(([A-Za-z0-9]+)\)<expan>					=	<ex>$1</ex>
@@ -73,7 +74,8 @@
 <expan><abbr><expan>								=	<expan>
 <\/expan><\/abbr><\/expan>							=	</expan>
 </abbr></expan><expan><ex>							=	</abbr><ex>
-
+([A-Z])\(\)                                         =   <expan><abbr>$1</abbr></expan>
+<abbr><\/abbr>                                      =   null
 
 # Other Markups
 # Underdots (Unicode 0323)
@@ -116,4 +118,5 @@
 ̣                                       		=   null
 
 
-
+^<w n="1">(\w*)\](\w*)<\/w>                 =   <w n="1">$1<gap reason="lost" extent="unknown" unit="line" />$2</w>
+\[(\w*)<\/w>$                               =   <gap reason="lost" extent="unknown" unit="line" />$1</w>

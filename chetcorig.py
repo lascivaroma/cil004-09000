@@ -8,6 +8,7 @@ MAKE_ID_LB = re.compile("lb n=\"%mkID(\d)\"")
 MAKE_ID_W = re.compile("%mkIDW")
 DOLLAR_TARGET = re.compile("($\d)+")
 
+
 class Epigraph2Markup(object):
     def __init__(self, replacements):
         self.replacements = []
@@ -25,8 +26,9 @@ class Epigraph2Markup(object):
                 self.replacements.append((re.compile(pattern), replacement))
 
     def reset(self):
-        self.lineNum = 1
-        self.id = 1
+        self.lineNum = 0
+        self.id = 0
+        self.wNum = 0
 
     def count(self, text, find):
         """ Count the number of match of find in text or the length of characters of find
@@ -53,7 +55,7 @@ class Epigraph2Markup(object):
             output = ""+replacement_string
             groups = sub_output.groups()
             for i in range(len(groups)):
-                output = output.replace("$"+str(i+1), groups[i])
+                output = output.replace("$"+str(i+1), groups[i] or "")
             return output
         return temp
 
@@ -63,8 +65,7 @@ class Epigraph2Markup(object):
 
             if "%g" in replacement:  # If we have a replacement variable in replacement
                 for match in pattern.findall(result):
-                    #print(match)
-                    pass
+                    print(match)
             else:
                 result = pattern.sub(self.replace(replacement), result)
 

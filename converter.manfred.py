@@ -69,7 +69,8 @@ with open("sources/Epigraphik Datenbank.html") as source:
         i += 1
 
         text = p.xpath(".//br")[-1].tail.replace("&lt;", "<").replace("\n", "").replace("&gt;", ">")
-        text_converted = epi_converter.convert(replacements)
+        epi_converter.reset()
+        text_converted = epi_converter.convert(text)
         print(text)
         print(text_converted)
         print()
