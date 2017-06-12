@@ -2,8 +2,8 @@
         xmlns="http://chs.harvard.edu/xmlns/cts"
         xmlns:dc="http://purl.org/dc/terms/"
         xmlns:cpt="http://purl.org/capitains/ns/1.0#"
-        urn="{urn}">
-    <groupname xml:lang="lat">Corpus Inscriptionum Latinarum IV {start}-{end}</groupname>
+        urn="urn:cts:pompei:cil004-00700">
+    <groupname xml:lang="lat">Corpus Inscriptionum Latinarum IV 700-800</groupname>
     <cpt:structured-metadata>
         <dc:identifier>http://arachne.uni-koeln.de/item/buch/2688</dc:identifier>
         <dc:identifier>CIL IV</dc:identifier>

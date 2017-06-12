@@ -1,26 +1,26 @@
-<work groupUrn="urn:cts:pompei:cil004-01300" xmlns:skos="http://www.w3.org/2004/02/skos/core#" urn="urn:cts:pompei:cil004-01300.01333" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="None" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<work groupUrn="urn:cts:pompei:cil004-01300" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" urn="urn:cts:pompei:cil004-01300.01333" xml:lang="None">
 <title xml:lang="eng">01333</title>
 <cpt:structured-metadata>
-<saws:identifier >www.trismegistos.org/text/T524058</saws:identifier>
-<skos:prefLabel xml:lang="eng">01333</skos:prefLabel>
 <dc:identifier >EDCS-28700403</dc:identifier>
-<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
-<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
 <saws:isLocatedAt >Pompei</saws:isLocatedAt>
 <rdfs:label xml:lang="eng">01333</rdfs:label>
+<skos:prefLabel xml:lang="eng">01333</skos:prefLabel>
+<saws:identifier >www.trismegistos.org/text/524058</saws:identifier>
+<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
 </cpt:structured-metadata>
-<edition urn="urn:cts:pompei:cil004-01300.01333.manfred-lat1" xml:lang="lat" workUrn="urn:cts:pompei:cil004-01300.01333">
+<edition workUrn="urn:cts:pompei:cil004-01300.01333" urn="urn:cts:pompei:cil004-01300.01333.manfred-lat1" xml:lang="lat">
 <label xml:lang="eng">01333</label>
 <description xml:lang="None">Automatically converted from Manfred Klaus database</description>
 <cpt:structured-metadata>
-<dct:contributor >Thibault Clérices</dct:contributor>
+<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
+<dct:contributor >Manfred Klaus</dct:contributor>
 <dc:format >text/xml</dc:format>
 <dc:language >lat</dc:language>
-<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
-<dct:contributor >Manfred Klaus</dct:contributor>
 <skos:prefLabel xml:lang="eng">01333</skos:prefLabel>
+<dct:contributor >Thibault Clérices</dct:contributor>
 <rdfs:label xml:lang="eng">01333</rdfs:label>
-<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
 </cpt:structured-metadata>
 </edition>
 </work>

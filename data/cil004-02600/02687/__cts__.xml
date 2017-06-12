@@ -1,0 +1,26 @@
+<work groupUrn="urn:cts:pompei:cil004-02600" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" urn="urn:cts:pompei:cil004-02600.02687" xml:lang="None">
+<title xml:lang="eng">02687</title>
+<cpt:structured-metadata>
+<saws:identifier >www.trismegistos.org/text/525646</saws:identifier>
+<skos:prefLabel xml:lang="eng">02687</skos:prefLabel>
+<saws:isLocatedAt >Pompei</saws:isLocatedAt>
+<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
+<dc:identifier >EDCS-29400189</dc:identifier>
+<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<rdfs:label xml:lang="eng">02687</rdfs:label>
+</cpt:structured-metadata>
+<edition workUrn="urn:cts:pompei:cil004-02600.02687" urn="urn:cts:pompei:cil004-02600.02687.manfred-lat1" xml:lang="lat">
+<label xml:lang="eng">02687</label>
+<description xml:lang="None">Automatically converted from Manfred Klaus database</description>
+<cpt:structured-metadata>
+<dct:contributor >Thibault Clérices</dct:contributor>
+<skos:prefLabel xml:lang="eng">02687</skos:prefLabel>
+<dc:format >text/xml</dc:format>
+<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
+<dct:contributor >Manfred Klaus</dct:contributor>
+<dc:language >lat</dc:language>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<rdfs:label xml:lang="eng">02687</rdfs:label>
+</cpt:structured-metadata>
+</edition>
+</work>
