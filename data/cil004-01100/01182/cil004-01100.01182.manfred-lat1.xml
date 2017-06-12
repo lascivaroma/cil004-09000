@@ -1,0 +1,62 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>01182</title>
+                <editor role="editor"><name>Schöne</name>, <forename>Richard</forename></editor>
+                <editor role="editor"><name>Zangemeister</name>, <forename>Karl Friedrich Wilhelm</forename></editor>
+                <editor><forename>Manfred</forename> <name>Klaus</name></editor>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Thibault Clérice</publisher>
+                <!-- This data has been produced in the context of Thibault's 
+                    Clérice's PhD at the University of Lyon 3 and under contract at the Ecole Nationale des Chartes -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="collection">Corpus Inscriptionum Latinarum</title>
+                    <idno>Vol IV</idno>
+                    <title type="volume">Inscriptiones parietariae Pompeianae, Herculanenses Stabianae</title>
+                    <editor role="editor"><name>Schöne</name>, <forename>Richard</forename></editor>
+                    <editor role="editor"><name>Zangemeister</name>, <forename>Karl Friedrich Wilhelm</forename></editor>
+                    <pubPlace>Leipzig</pubPlace>
+                    <date>1925/1976</date>
+                </bibl>
+                <bibl>
+                    <title>Epigraphische Datenbank Clauss - Slaby</title>
+                    <editor><forename>Manfred</forename> <name>Klaus</name></editor>
+                    <date>12-06-2017</date>
+                    <ref>http://manfredclauss.de/gb/index.html</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="word"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:ab/tei:w[@n='$1'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-12" who="Thibault Clérice">Converted to EpiDoc/CapiTainS from Manfred Klaus website using https://github.com/lascivaroma/pompei-inscriptions/blob/be6de98/converter.manfred.py</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:pompei:cil004-01100.01182.manfred-lat1" xml:lang="lat">
+                <ab><w n="1">Munere</w> <w n="2"><supplied reason="lost"><expan><abbr>N</abbr><ex>umeri</ex></expan></w> <w n="3">Fes</supplied>ti</w> <w n="4">Ampliati</w> <w n="5">die</w> <w n="6">summo</w> <lb n="1"/><lb n="2"/> <w n="7">Bebryx</w> <w n="8"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="9"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="10">XV</w> <w n="11"><expan><abbr>v</abbr><ex>icit</ex></expan></w> <lb n="3"/> <w n="12">Nobilior</w> <w n="13"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="14"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="15">XIV</w> <lb n="4"/> <lb n="5"/><lb n="6"/> <w n="16"><supplied reason="lost">3</supplied></w> <w n="17"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="18"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="19">XVI</w> <lb n="7"/> <w n="20"><supplied reason="lost">3</w> <w n="21">pugnarum</w> <w n="22">X</supplied>IV</w> <w n="23"><expan><abbr>m</abbr><ex>issus</ex></expan></w> <w n="24"><expan><abbr>e</abbr><ex>st</ex></expan></w> <lb n="8"/> <lb n="9"/><lb n="10"/> <w n="25"><supplied reason="lost">3</supplied></w> <w n="26"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="27"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="28">XXX</w> <w n="29"><expan><abbr>v</abbr><ex>icit</ex></expan></w> <lb n="11"/> <w n="30"><supplied reason="lost">3</supplied>sus</w> <w n="31"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="32"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="33">XV</w> <w n="34"><expan><abbr>m</abbr><ex>issus</ex></expan></w> <w n="35"><expan><abbr>o</abbr><ex>biit</ex></expan></w> <lb n="12"/> <lb n="13"/><lb n="14"/> <w n="36">Hippolytus</w> <w n="37">I<supplied reason="lost"><expan><abbr>ul</abbr><ex cert="low">ianus</ex></expan></supplied></w> <w n="38"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="39">V</w> <w n="40"><expan><abbr>v</abbr><ex>icit</ex></expan></w> <lb n="15"/> <w n="41">Ce<supplied reason="lost">l</supplied>atus</w> <w n="42"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="43"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="44">VI</w> <lb n="16"/> <lb n="17"/><lb n="18"/> <w n="45">Nedymus</w> <w n="46"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="47"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="48">V</w> <w n="49"><supplied reason="lost">3</supplied></w> <lb n="19"/> <w n="50"><supplied reason="lost">3</supplied>p<supplied reason="lost">3</supplied></w> <w n="51"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="52"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnrum</ex></expan></w> <w n="53">XV</w> <w n="54"><expan><abbr>m</abbr><ex>issus</ex></expan></w> <lb n="20"/> <lb n="21"/><lb n="22"/> <w n="55"><supplied reason="lost">3</supplied></w> <w n="56"><expan><abbr>Iul</abbr><ex>ianus</ex></expan></w> <w n="57"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>pugnarum</ex></expan></w> <w n="58">IV</w> <w n="59"><gap reason="lost" extent="unknown" unit="line" /></w></ab>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -6,11 +6,13 @@ from lxml import etree
 import re
 from chetcorig import Epigraph2Markup
 from jinja2 import Template
-from os import makedirs
+from os import makedirs, path
 
 
 with open('templates/template.jinja.xml') as f:
     template = Template(f.read())
+with open('templates/template.textgroup.xml') as f:
+    tgtemplate = Template(f.read())
 
 with open("replacements.txt") as f:
     replacements = f.read()
@@ -24,6 +26,7 @@ get_graph().bind("saws", SAWS)
 PLACE = re.compile("<b>province:<\/b>(.*)<b>place:<\/b>")
 EDCS = re.compile("<b>EDCS-ID:</b> EDCS-(\w+)")
 CIL = re.compile("\s*CIL\s*04,\s*(p?\s*[\*a-zA-Z0-9]+)")
+CIL_NUMBER = re.compile("^(\d+)\w?$")
 TRISMEGISTOS = re.compile("http:\/\/db\.edcs\.eu\/epigr\/partner\.php\?param=.*(T\w+)\"")
 TRISMEGISTOS_PLACE = re.compile("http:\/\/www\.trismegistos\.org\/place\/(\w+)")
 PUBLICATION = re.compile("publication:<\/b>([a-z,\-\+\/\*A-Z =\(\)0-9]+)<[ab]")
@@ -34,7 +37,8 @@ epi_converter = Epigraph2Markup(replacements)
 with open("sources/Epigraphik Datenbank.html") as source:
     xml = etree.parse(source)
     i = 0
-    for p in xml.findall("//p")[:50]:
+    tgid = "cil04-0000"
+    for p in xml.findall("//p"):
         as_string = etree.tostring(p, encoding=str).replace("\n", "")
 
         text_id, text_image, trismegistos = None, None, None
@@ -86,10 +90,15 @@ with open("sources/Epigraphik Datenbank.html") as source:
         except IndexError:
             print("Publication not found in {}".format(as_string))
 
-        trismegistos_place = TRISMEGISTOS_PLACE.findall(as_string)[0]
+        if CIL_NUMBER.match(text_id):
+            i = CIL_NUMBER.match(text_id).groups()[0][0:3]
+            tgid = "cil004-{}00".format(i)
+            i = int(i+"00")
+        else:
+            i = 0
+            tgid = "pages"
 
-        urn = "urn:cts:pompei:cil04.{}.manfred-lat1".format(text_id.strip())
-        i += 1
+        urn = "urn:cts:pompei:{}.{}.manfred-lat1".format(tgid, text_id.strip())
 
         text = p.xpath(".//br")[-1].tail.replace("&lt;", "<").replace("\n", "").replace("&gt;", ">")
         epi_converter.reset()
@@ -98,12 +107,13 @@ with open("sources/Epigraphik Datenbank.html") as source:
 
         work = XmlCtsWorkMetadata(urn=(URN(urn)).upTo(URN.WORK))
         work.set_cts_property("title", text_id, lang="eng")
+
         for ident in additional_ids:
             work.metadata.add(DC.term("identifier"), ident)
         if text_image is not None:
             work.metadata.add(DCTERMS.term("isFormatOf"), text_image)
         if trismegistos is not None:
-            work.metadata.add(SAWS.term("identifier"), "www.trismegistos.org/text/"+trismegistos)
+            work.metadata.add(SAWS.term("identifier"), "www.trismegistos.org/text/"+trismegistos[1:])
         if trismegistos_place is not None:
             work.metadata.add(SAWS.term("isLocatedAt"), "http://www.trismegistos.org/place/"+trismegistos_place)
         if placename is not None:
@@ -123,15 +133,20 @@ with open("sources/Epigraphik Datenbank.html") as source:
         edition.metadata.add(DCTERMS.term("contributor"), "Thibault Clérices")
         edition.metadata.add(DC.term("format"), "text/xml")
 
-
-
         try:
-            makedirs("data/cil04/"+text_id.strip())
+            makedirs("data/{}/{}".format(tgid, text_id.strip()))
         except:
             """Do Nothing"""
 
-        with open("data/cil04/"+text_id.strip()+"/cil04.{}.manfred-lat1.xml".format(text_id.strip()), "w") as epidoc:
+        if not path.isfile("data/{}/__cts__.xml".format(tgid)):
+            with open("data/{}/__cts__.xml".format(tgid), "w") as tgfile:
+                tgfile.write(tgtemplate.render(urn="urn:cts:pompei:"+tgid, start=str(i), end=str(i+100)))
+
+        with open("data/"+tgid+"/"+text_id.strip()+"/{}.{}.manfred-lat1.xml".format(tgid, text_id.strip()), "w") as epidoc:
             epidoc.write(text_xml)
 
-        with open("data/cil04/"+text_id.strip()+"/__cts__.xml".format(), "w") as metadata:
-            metadata.write(work.export(Mimetypes.XML.CapiTainS.CTS))
+        with open("data/"+tgid+"/"+text_id.strip()+"/__cts__.xml".format(), "w") as metadata:
+            metadata.write(work.export(Mimetypes.XML.CapiTainS.CTS).replace("<work", "<work groupUrn=\"{}\"".format(
+                "urn:cts:pompei:"+tgid
+            )))
+        i +=1
