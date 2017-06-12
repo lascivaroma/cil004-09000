@@ -1,7 +1,14 @@
-import MyCapytain
+from MyCapytain.resources.collections.cts import XmlCtsWorkMetadata, XmlCtsEditionMetadata
+from MyCapytain.common.constants import Mimetypes
 from lxml import etree
 import re
 from chetcorig import Epigraph2Markup
+from jinja2 import Template
+from os import makedirs
+
+
+with open('templates/template.jinja.xml') as f:
+    template = Template(f.read())
 
 with open("replacements.txt") as f:
     replacements = f.read()
@@ -19,11 +26,14 @@ epi_converter = Epigraph2Markup(replacements)
 with open("sources/Epigraphik Datenbank.html") as source:
     xml = etree.parse(source)
     i = 0
-    for p in xml.findall("//p"):#[:50]:
+    for p in xml.findall("//p")[:50]:
         as_string = etree.tostring(p, encoding=str).replace("\n", "")
 
         text_id, text_image, trismegistos = None, None, None
         placename, longitude, latitude, regio = None, None, None, None
+        editors = [
+            ""
+        ]
         additional_ids = []
 
         try:
@@ -71,6 +81,22 @@ with open("sources/Epigraphik Datenbank.html") as source:
         text = p.xpath(".//br")[-1].tail.replace("&lt;", "<").replace("\n", "").replace("&gt;", ">")
         epi_converter.reset()
         text_converted = epi_converter.convert(text)
-        print(text)
-        print(text_converted)
-        print()
+        text_xml = template.render(title=text_id, xml=text_converted, urn=urn)
+
+        try:
+            makedirs("data/cil04/"+text_id.strip())
+        except:
+            """Do Nothing"""
+
+        with open("data/cil04/"+text_id.strip()+"/cil04.{}.manfred-lat1.xml".format(text_id.strip()), "w") as epidoc:
+            epidoc.write(text_xml)
+
+        work = XmlCtsWorkMetadata(urn=urn)
+        work.set_cts_property("title", text_id)
+
+        edition = XmlCtsEditionMetadata(urn=urn, parent=work)
+        edition.set_cts_property("label", text_id)
+        edition.set_cts_property("description", "Automatically converted from Manfred Klaus database")
+
+        with open("data/cil04/"+text_id.strip()+"/__cts__.xml".format(), "w") as metadata:
+            work.write(edition.export(Mimetypes.XML.CTS))

@@ -10,6 +10,9 @@
 # occurences of the symbol in the second capturing group inside the first capturing group.  In
 # regular expressions, capturing groups are delimited by parentheses.
 
+\[(\w) (\d)\]                               =   [$1] [$2]
+\[(\d) (\w)\]                               =   [$1] [$2]
+\[(\d) (\w) (\d)\]                          =   [$1] [$2] [$3]
 ([^\s/]+)                                   =   <w n="%mkIDW">$1</w>
 \/(?!\w)									=	<lb n="%mkID1"/>
 
@@ -74,7 +77,7 @@
 <expan><abbr><expan>								=	<expan>
 <\/expan><\/abbr><\/expan>							=	</expan>
 </abbr></expan><expan><ex>							=	</abbr><ex>
-([A-Z])\(\)                                         =   <expan><abbr>$1</abbr></expan>
+(\w)\(\)                                            =   <expan><abbr>$1</abbr><ex extent="unknown"></ex></expan>
 <abbr><\/abbr>                                      =   null
 
 # Other Markups

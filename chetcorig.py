@@ -3,7 +3,7 @@ import re
 SPACES = re.compile("\s+")
 GLOBALS = re.compile("%g\d")
 LINE_SPLIT = re.compile("\s+=\s+")
-MAKE_ID = re.compile("id=\"%mkID(\d)\"")
+MAKE_ID = re.compile("(%mkID\d+)")
 MAKE_ID_LB = re.compile("lb n=\"%mkID(\d)\"")
 MAKE_ID_W = re.compile("%mkIDW")
 DOLLAR_TARGET = re.compile("($\d)+")
@@ -73,9 +73,8 @@ class Epigraph2Markup(object):
             result = MAKE_ID_LB.sub(self.lb, result)
 
             lbs = []
-            for match in MAKE_ID_LB.finditer(result):
-                lbs.append((match.start(), match.end()))
-            #print(lbs)
+            make_ids = [unit for match in MAKE_ID.findall(result) for unit in match.groups() if unit is not None]
+
 
         return result
 
@@ -84,4 +83,4 @@ if __name__ == "__main__":
         replacements = f.read()
     obj = Epigraph2Markup(replacements)
     x = obj.convert("[3]ostum[3] / aed(ilem) o(ro) v(os) f(aciatis) / d(ignum) r(ei) p(ublicae)")
-    print(x)
+    #print(x)
