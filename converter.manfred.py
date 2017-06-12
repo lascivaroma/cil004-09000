@@ -1,5 +1,7 @@
 from MyCapytain.resources.collections.cts import XmlCtsWorkMetadata, XmlCtsEditionMetadata
-from MyCapytain.common.constants import Mimetypes
+from MyCapytain.common.constants import Mimetypes, get_graph
+from MyCapytain.common.reference import URN
+from rdflib.namespace import DC, DCTERMS, Namespace
 from lxml import etree
 import re
 from chetcorig import Epigraph2Markup
@@ -12,6 +14,12 @@ with open('templates/template.jinja.xml') as f:
 
 with open("replacements.txt") as f:
     replacements = f.read()
+
+SAWS = Namespace("http://purl.org/saws/ontology#")
+
+get_graph().bind("dc", DC)
+get_graph().bind("dct", DCTERMS)
+get_graph().bind("saws", SAWS)
 
 PLACE = re.compile("<b>province:<\/b>(.*)<b>place:<\/b>")
 EDCS = re.compile("<b>EDCS-ID:</b> EDCS-(\w+)")
@@ -31,6 +39,7 @@ with open("sources/Epigraphik Datenbank.html") as source:
 
         text_id, text_image, trismegistos = None, None, None
         placename, longitude, latitude, regio = None, None, None, None
+        trismegistos_place = None
         editors = [
             ""
         ]
@@ -49,6 +58,10 @@ with open("sources/Epigraphik Datenbank.html") as source:
             trismegistos = TRISMEGISTOS.findall(as_string)[0]
         except IndexError:
             print("Trismegistos not found in {}".format(as_string))
+        try:
+            trismegistos_place = TRISMEGISTOS_PLACE.findall(as_string)[0]
+        except IndexError:
+            print("Trismegistos Place not found in {}".format(as_string))
 
         # Find the Place
         try:
@@ -83,6 +96,35 @@ with open("sources/Epigraphik Datenbank.html") as source:
         text_converted = epi_converter.convert(text)
         text_xml = template.render(title=text_id, xml=text_converted, urn=urn)
 
+        work = XmlCtsWorkMetadata(urn=(URN(urn)).upTo(URN.WORK))
+        work.set_cts_property("title", text_id, lang="eng")
+        for ident in additional_ids:
+            work.metadata.add(DC.term("identifier"), ident)
+        if text_image is not None:
+            work.metadata.add(DCTERMS.term("isFormatOf"), text_image)
+        if trismegistos is not None:
+            work.metadata.add(SAWS.term("identifier"), "www.trismegistos.org/text/"+trismegistos)
+        if trismegistos_place is not None:
+            work.metadata.add(SAWS.term("isLocatedAt"), "http://www.trismegistos.org/place/"+trismegistos_place)
+        if placename is not None:
+            work.metadata.add(SAWS.term("isLocatedAt"), placename)
+        if longitude is not None and latitude is not None:
+            work.metadata.add(SAWS.term("isLocatedAt"), "long:{};lat:{}".format(longitude, latitude))
+        if regio is not None:
+            work.metadata.add(SAWS.term("isLocatedAt"), regio)
+            work.metadata.add(DCTERMS.term("Location"), regio)
+
+        edition = XmlCtsEditionMetadata(urn=urn, parent=work, lang="lat")
+        edition.set_cts_property("label", text_id, lang="eng")
+        edition.set_cts_property("description", "Automatically converted from Manfred Klaus database")
+        edition.metadata.add(DCTERMS.term("provenance"), "http://manfredclauss.de/gb/index.html")
+        edition.metadata.add(DCTERMS.term("source"), "http://www.worldcat.org/oclc/459220842")
+        edition.metadata.add(DCTERMS.term("contributor"), "Manfred Klaus")
+        edition.metadata.add(DCTERMS.term("contributor"), "Thibault Clérices")
+        edition.metadata.add(DC.term("format"), "text/xml")
+
+
+
         try:
             makedirs("data/cil04/"+text_id.strip())
         except:
@@ -91,12 +133,5 @@ with open("sources/Epigraphik Datenbank.html") as source:
         with open("data/cil04/"+text_id.strip()+"/cil04.{}.manfred-lat1.xml".format(text_id.strip()), "w") as epidoc:
             epidoc.write(text_xml)
 
-        work = XmlCtsWorkMetadata(urn=urn)
-        work.set_cts_property("title", text_id)
-
-        edition = XmlCtsEditionMetadata(urn=urn, parent=work)
-        edition.set_cts_property("label", text_id)
-        edition.set_cts_property("description", "Automatically converted from Manfred Klaus database")
-
         with open("data/cil04/"+text_id.strip()+"/__cts__.xml".format(), "w") as metadata:
-            work.write(edition.export(Mimetypes.XML.CTS))
+            metadata.write(work.export(Mimetypes.XML.CapiTainS.CTS))
