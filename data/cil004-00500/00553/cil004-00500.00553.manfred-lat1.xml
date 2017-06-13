@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00500.00553.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Si<choice><orig>tt</orig><sic>LV</sic></choice>ium</w> <w n="2">Magnum</w></ab>
+                <ab><w n="1">Si<choice><corr>tt</corr><sic>LV</sic></choice>ium</w> <w n="2">Magnum</w></ab>
             </div>
         </body>
     </text>

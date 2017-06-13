@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01800.01837a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Invit<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="2">invitus</w> <w n="3"><supplied reason="lost">re</supplied><expan><abbr>g</abbr><ex cert="low">ina</ex></expan></w> <w n="4"><expan><ex>t</ex><abbr>uo</abbr></expan></w> <w n="5"><supplied reason="lost">de</w> <w n="6">lit</supplied>ore(?)</w> <w n="7">me<supplied reason="lost">3</supplied></w> <w n="8">Optatus</w> <w n="9">seu</w> <lb n="2"/> <w n="10">verum</w> <w n="11">equites</w> <w n="12">cupio</w> <w n="13"><supplied reason="lost">3</supplied>mus</w> <w n="14">uni<gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1">Invit<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="2">invitus</w> <w n="3"><supplied reason="lost">re</supplied><expan><abbr>g</abbr><ex cert="low">ina</ex></expan></w> <w n="4"><expan><ex>t</ex><abbr>uo</abbr></expan></w> <w n="5"><supplied reason="lost">de</supplied></w> <w n="6"><supplied reason="lost">lit</supplied>ore(?)</w> <w n="7">me<supplied reason="lost">3</supplied></w> <w n="8">Optatus</w> <w n="9">seu</w> <lb n="2"/> <w n="10">verum</w> <w n="11">equites</w> <w n="12">cupio</w> <w n="13"><supplied reason="lost">3</supplied>mus</w> <w n="14">uni<gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

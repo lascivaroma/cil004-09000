@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00200.00264.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>M</abbr><ex>arcum</ex></expan></w> <w n="2">Cerrinium</w> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="1"/> <w n="4"><expan><abbr>d</abbr><ex>ignum</ex></expan></w> <w n="5"><expan><abbr>r</abbr><ex>ei</ex></expan></w> <w n="6"><expan><abbr>p</abbr><ex>ublicae</ex></expan></w> <w n="7"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="8"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="9"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="10">di<choice><orig>g</orig><sic>C</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>nus</ex></expan></w> <w n="11"><choice><orig>e</orig><sic>I</sic></choice><expan><abbr>s</abbr><ex>t</ex></expan></w></ab>
+                <ab><w n="1"><expan><abbr>M</abbr><ex>arcum</ex></expan></w> <w n="2">Cerrinium</w> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="1"/> <w n="4"><expan><abbr>d</abbr><ex>ignum</ex></expan></w> <w n="5"><expan><abbr>r</abbr><ex>ei</ex></expan></w> <w n="6"><expan><abbr>p</abbr><ex>ublicae</ex></expan></w> <w n="7"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="8"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="9"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="10">di<choice><corr>g</corr><sic>C</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>nus</ex></expan></w> <w n="11"><choice><corr>e</corr><sic>I</sic></choice><expan><abbr>s</abbr><ex>t</ex></expan></w></ab>
             </div>
         </body>
     </text>

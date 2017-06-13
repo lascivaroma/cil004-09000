@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01241.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Secundus</w> <w n="2"><choice><orig>con</orig><sic>QVO</sic></choice>servis</w> <lb n="1"/> <w n="3"><expan><abbr>proficisce</abbr><ex>n</ex><abbr>s</abbr></expan></w> <w n="4">salutem</w> <lb n="2"/> <w n="5"><expan><abbr>libe</abbr><ex>n</ex><abbr>s</abbr></expan></w></ab>
+                <ab><w n="1">Secundus</w> <w n="2"><choice><corr>con</corr><sic>QVO</sic></choice>servis</w> <lb n="1"/> <w n="3"><expan><abbr>proficisce</abbr><ex>n</ex><abbr>s</abbr></expan></w> <w n="4">salutem</w> <lb n="2"/> <w n="5"><expan><abbr>libe</abbr><ex>n</ex><abbr>s</abbr></expan></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01520.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Candida</w> <w n="2">me</w> <w n="3">docuit</w> <w n="4">nigras</w> <lb n="1"/> <w n="5">odisse</w> <w n="6">puellas</w> <w n="7">odero</w> <w n="8">s<choice><orig>i</orig><sic>E</sic></choice></w> <w n="9">potero</w> <w n="10">sed</w> <w n="11">non</w> <w n="12">invitus</w> <lb n="2"/> <w n="13">amabo</w> <lb n="3"/> <w n="14">scripsit</w> <w n="15">Venus</w> <w n="16">fisica</w> <w n="17">Pompeiana</w></ab>
+                <ab><w n="1">Candida</w> <w n="2">me</w> <w n="3">docuit</w> <w n="4">nigras</w> <lb n="1"/> <w n="5">odisse</w> <w n="6">puellas</w> <w n="7">odero</w> <w n="8">s<choice><corr>i</corr><sic>E</sic></choice></w> <w n="9">potero</w> <w n="10">sed</w> <w n="11">non</w> <w n="12">invitus</w> <lb n="2"/> <w n="13">amabo</w> <lb n="3"/> <w n="14">scripsit</w> <w n="15">Venus</w> <w n="16">fisica</w> <w n="17">Pompeiana</w></ab>
             </div>
         </body>
     </text>

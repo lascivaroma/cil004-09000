@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01177.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Dedicatione</w> <lb n="1"/> <w n="2"><supplied reason="lost">operis</w> <w n="3">tabula</supplied>rum</w> <w n="4">muneris</w> <w n="5"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="6">Allei</w> <w n="7">Nigidi</w> <w n="8">Mai</w> <lb n="2"/> <w n="9"><supplied reason="lost">3</w> <w n="10">pompa</supplied></w> <w n="11">venatio</w> <w n="12">athletae</w> <w n="13">sparsiones</w> <w n="14">vela</w> <w n="15">erunt</w> <lb n="3"/><lb n="4"/> <w n="16">Maio</w> <lb n="5"/> <w n="17">principi</w> <w n="18">coloniae</w> <lb n="6"/> <w n="19">feliciter</w></ab>
+                <ab><w n="1">Dedicatione</w> <lb n="1"/> <w n="2"><supplied reason="lost">operis</supplied></w> <w n="3"><supplied reason="lost">tabula</supplied>rum</w> <w n="4">muneris</w> <w n="5"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="6">Allei</w> <w n="7">Nigidi</w> <w n="8">Mai</w> <lb n="2"/> <w n="9"><supplied reason="lost">3</supplied></w> <w n="10"><supplied reason="lost">pompa</supplied></w> <w n="11">venatio</w> <w n="12">athletae</w> <w n="13">sparsiones</w> <w n="14">vela</w> <w n="15">erunt</w> <lb n="3"/><lb n="4"/> <w n="16">Maio</w> <lb n="5"/> <w n="17">principi</w> <w n="18">coloniae</w> <lb n="6"/> <w n="19">feliciter</w></ab>
             </div>
         </body>
     </text>

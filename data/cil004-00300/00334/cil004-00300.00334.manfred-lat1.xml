@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00300.00334.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>P</abbr><ex>ublium</ex></expan></w> <w n="2">Pro<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="3">Sabi<supplied reason="lost">num</w> <w n="4">3</supplied></w> <lb n="2"/> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="8"><expan><abbr>d</abbr><ex>ignos</ex></expan></w></ab>
+                <ab><w n="1"><expan><abbr>P</abbr><ex>ublium</ex></expan></w> <w n="2">Pro<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="3">Sabi<supplied reason="lost">num</supplied></w> <w n="4"><supplied reason="lost">3</supplied></w> <lb n="2"/> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="8"><expan><abbr>d</abbr><ex>ignos</ex></expan></w></ab>
             </div>
         </body>
     </text>

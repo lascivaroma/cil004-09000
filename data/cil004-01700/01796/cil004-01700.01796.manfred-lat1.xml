@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01700.01796.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Ioolelin</w> <lb n="1"/> <w n="2">Expect</w> <lb n="2"/><lb n="3"/> <w n="3"><supplied reason="lost">Amplexus</w> <w n="4">teneros</w> <w n="5">hac</w> <w n="6">si</supplied></w> <w n="7">quis</w> <w n="8">quaerit</w> <w n="9">in</w> <w n="10">ur<supplied reason="lost">be</supplied></w> <lb n="4"/> <w n="11">expect<supplied reason="lost">at</w> <w n="12">ceras</supplied></w> <w n="13">nulla</w> <w n="14">puella</w> <w n="15">viri</w></ab>
+                <ab><w n="1">Ioolelin</w> <lb n="1"/> <w n="2">Expect</w> <lb n="2"/><lb n="3"/> <w n="3"><supplied reason="lost">Amplexus</w> <w n="4">teneros</w> <w n="5">hac</w> <w n="6">si</supplied></w> <w n="7">quis</w> <w n="8">quaerit</w> <w n="9">in</w> <w n="10">ur<supplied reason="lost">be</supplied></w> <lb n="4"/> <w n="11">expect<supplied reason="lost">at</supplied></w> <w n="12"><supplied reason="lost">ceras</supplied></w> <w n="13">nulla</w> <w n="14">puella</w> <w n="15">viri</w></ab>
             </div>
         </body>
     </text>

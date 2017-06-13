@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01700.01792.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">3</w> <w n="2">quis</supplied>quis</w> <w n="3">es</w> <w n="4">I<supplied reason="lost">3</supplied>udei</w> <w n="5">Dumnos<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">qu</supplied>isquis</w> <w n="7">es</w> <w n="8">nolis</w> <w n="9">Cu<supplied reason="lost">3</supplied></w> <w n="10">quod</w> <w n="11">tu</w> <w n="12">facere</w> <w n="13">NOI<gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1"><supplied reason="lost">3</supplied></w> <w n="2"><supplied reason="lost">quis</supplied>quis</w> <w n="3">es</w> <w n="4">I<supplied reason="lost">3</supplied>udei</w> <w n="5">Dumnos<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">qu</supplied>isquis</w> <w n="7">es</w> <w n="8">nolis</w> <w n="9">Cu<supplied reason="lost">3</supplied></w> <w n="10">quod</w> <w n="11">tu</w> <w n="12">facere</w> <w n="13">NOI<gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

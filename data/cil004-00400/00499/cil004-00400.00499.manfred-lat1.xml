@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00400.00499.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost"><expan><abbr>Cn</abbr><ex>aeum</ex></expan></w> <w n="2">Allei</supplied>um</w> <w n="3">Maium</w> <w n="4"><expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>irum</ex></expan></w> <w n="5"><expan><abbr>i</abbr><ex>ure</ex></expan></w> <w n="6"><expan><abbr>d</abbr><ex>icundo</ex></expan></w> <lb n="1"/> <w n="7">Aurelius</w> <w n="8">civem</w> <w n="9">bonum</w> <w n="10"><expan><abbr>fac</abbr><ex>it</ex></expan></w></ab>
+                <ab><w n="1"><supplied reason="lost"><expan><abbr>Cn</abbr><ex>aeum</ex></expan></supplied></w> <w n="2"><supplied reason="lost">Allei</supplied>um</w> <w n="3">Maium</w> <w n="4"><expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>irum</ex></expan></w> <w n="5"><expan><abbr>i</abbr><ex>ure</ex></expan></w> <w n="6"><expan><abbr>d</abbr><ex>icundo</ex></expan></w> <lb n="1"/> <w n="7">Aurelius</w> <w n="8">civem</w> <w n="9">bonum</w> <w n="10"><expan><abbr>fac</abbr><ex>it</ex></expan></w></ab>
             </div>
         </body>
     </text>

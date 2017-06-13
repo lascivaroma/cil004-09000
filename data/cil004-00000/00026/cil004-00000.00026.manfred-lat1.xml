@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00026.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>N</abbr><ex>umerium</ex></expan></w> <w n="2"><expan><abbr>Barcha</abbr><ex>m</ex></expan></w> <w n="3"><expan><abbr>IIv</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="5"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="6"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="7"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="8"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="9">ita</w> <w n="10">v<supplied reason="lost">o</supplied>beis</w> <w n="11">Venus</w> <w n="12"><expan><abbr>Pomp</abbr><ex>eiana</ex></expan></w> <w n="13">sacra</w> <w n="14"><supplied reason="lost">sancta</w> <w n="15">propitia</w> <w n="16">sit</supplied></w></ab>
+                <ab><w n="1"><expan><abbr>N</abbr><ex>umerium</ex></expan></w> <w n="2"><expan><abbr>Barcha</abbr><ex>m</ex></expan></w> <w n="3"><expan><abbr>IIv</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="5"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="6"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="7"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="8"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <w n="9">ita</w> <w n="10">v<supplied reason="lost">o</supplied>beis</w> <w n="11">Venus</w> <w n="12"><expan><abbr>Pomp</abbr><ex>eiana</ex></expan></w> <w n="13">sacra</w> <w n="14"><supplied reason="lost">sancta</supplied></w> <w n="15"><supplied reason="lost">propitia</supplied></w> <w n="16"><supplied reason="lost">sit</supplied></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01800.01899.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Hominem</w> <w n="2">reddit</w> <w n="3">rhetor</w> <w n="4">qui</w> <w n="5">emit</w> <lb n="1"/> <w n="6">serv<choice><orig>u</orig><sic>O</sic></choice>m</w> <w n="7">os</w> <w n="8">non</w> <w n="9">habet</w></ab>
+                <ab><w n="1">Hominem</w> <w n="2">reddit</w> <w n="3">rhetor</w> <w n="4">qui</w> <w n="5">emit</w> <lb n="1"/> <w n="6">serv<choice><corr>u</corr><sic>O</sic></choice>m</w> <w n="7">os</w> <w n="8">non</w> <w n="9">habet</w></ab>
             </div>
         </body>
     </text>

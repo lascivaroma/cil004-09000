@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00700.00786a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Holconium</w> <w n="3">s<choice><orig>c</orig><sic>E</sic></choice><expan><abbr>r</abbr><ex cert="low">ipsit</ex></expan></w></ab>
+                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Holconium</w> <w n="3">s<choice><corr>c</corr><sic>E</sic></choice><expan><abbr>r</abbr><ex cert="low">ipsit</ex></expan></w></ab>
             </div>
         </body>
     </text>

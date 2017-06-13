@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01234.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Pupa</w> <w n="2"><expan><abbr>qu</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="3"><expan><abbr>bel</abbr><ex>l</ex><abbr>a</abbr></expan></w> <w n="4"><choice><orig>i</orig><sic>E</sic></choice>s</w> <w n="5">tibi</w> <lb n="1"/> <w n="6">me</w> <w n="7">misit</w> <w n="8">qui</w> <w n="9">tuus</w> <w n="10"><expan><abbr>es</abbr><ex>t</ex></expan></w> <w n="11"><expan><abbr>val</abbr><ex>e</ex></expan></w></ab>
+                <ab><w n="1">Pupa</w> <w n="2"><expan><abbr>qu</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="3"><expan><abbr>bel</abbr><ex>l</ex><abbr>a</abbr></expan></w> <w n="4"><choice><corr>i</corr><sic>E</sic></choice>s</w> <w n="5">tibi</w> <lb n="1"/> <w n="6">me</w> <w n="7">misit</w> <w n="8">qui</w> <w n="9">tuus</w> <w n="10"><expan><abbr>es</abbr><ex>t</ex></expan></w> <w n="11"><expan><abbr>val</abbr><ex>e</ex></expan></w></ab>
             </div>
         </body>
     </text>

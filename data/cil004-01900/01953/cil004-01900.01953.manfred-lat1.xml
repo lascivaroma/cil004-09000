@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01900.01953.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Felix</w> <w n="2">si<supplied reason="lost">3</supplied>rt<supplied reason="lost">3</w> <w n="3">ru</supplied>fus</w> <w n="4">Successus</w></ab>
+                <ab><w n="1">Felix</w> <w n="2">si<supplied reason="lost">3</supplied>rt<supplied reason="lost">3</supplied></w> <w n="3"><supplied reason="lost">ru</supplied>fus</w> <w n="4">Successus</w></ab>
             </div>
         </body>
     </text>

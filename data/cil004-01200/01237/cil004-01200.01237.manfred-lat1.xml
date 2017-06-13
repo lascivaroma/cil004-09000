@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01237.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Prime<supplied reason="lost">3</supplied>enis</w> <lb n="1"/> <w n="2">Soes</w> <lb n="2"/><lb n="3"/> <w n="3">Mystes</w> <w n="4">communi</w> <w n="5">suo</w> <w n="6">salute</w> <w n="7">vidisti</w> <w n="8">quo</w> <w n="9"><expan><abbr>Turnu</abbr><ex>s</ex></expan></w> <w n="10"><expan><ex>a</ex><abbr>equ</abbr></expan></w> <w n="11"><choice><orig>qu</orig><sic>OR</sic></choice>ibus</w> <w n="12"><sic>e</sic>ibat</w> <w n="13">in</w> <w n="14"><expan><abbr>armi</abbr><ex>s</ex></expan></w> <lb n="4"/> <w n="15">virtutis</w> <w n="16">merces</w> <w n="17">palmam</w> <w n="18">pretium</w> <w n="19">gloriae</w> <w n="20">victoriae</w> <w n="21">spem</w> <w n="22">causas</w></ab>
+                <ab><w n="1">Prime<supplied reason="lost">3</supplied>enis</w> <lb n="1"/> <w n="2">Soes</w> <lb n="2"/><lb n="3"/> <w n="3">Mystes</w> <w n="4">communi</w> <w n="5">suo</w> <w n="6">salute</w> <w n="7">vidisti</w> <w n="8">quo</w> <w n="9"><expan><abbr>Turnu</abbr><ex>s</ex></expan></w> <w n="10"><expan><ex>a</ex><abbr>equ</abbr></expan></w> <w n="11"><choice><corr>qu</corr><sic>OR</sic></choice>ibus</w> <w n="12"><sic>e</sic>ibat</w> <w n="13">in</w> <w n="14"><expan><abbr>armi</abbr><ex>s</ex></expan></w> <lb n="4"/> <w n="15">virtutis</w> <w n="16">merces</w> <w n="17">palmam</w> <w n="18">pretium</w> <w n="19">gloriae</w> <w n="20">victoriae</w> <w n="21">spem</w> <w n="22">causas</w></ab>
             </div>
         </body>
     </text>

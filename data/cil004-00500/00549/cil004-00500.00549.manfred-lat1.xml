@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00500.00549.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Faustus</w> <lb n="1"/> <w n="2">Faustiano</w> <w n="3">esurientibus</w> <lb n="2"/> <w n="4">Gemellus</w> <w n="5">Cesernine</w> <w n="6">Lu<choice><orig>c</orig><sic>S</sic></choice>i</w> <w n="7">Numisi</w> <w n="8">ux<sic>x</sic>ori</w> <w n="9"><expan><abbr>sal</abbr><ex>utem</ex></expan></w> <w n="10">et</w> <w n="11">ipso</w></ab>
+                <ab><w n="1">Faustus</w> <lb n="1"/> <w n="2">Faustiano</w> <w n="3">esurientibus</w> <lb n="2"/> <w n="4">Gemellus</w> <w n="5">Cesernine</w> <w n="6">Lu<choice><corr>c</corr><sic>S</sic></choice>i</w> <w n="7">Numisi</w> <w n="8">ux<sic>x</sic>ori</w> <w n="9"><expan><abbr>sal</abbr><ex>utem</ex></expan></w> <w n="10">et</w> <w n="11">ipso</w></ab>
             </div>
         </body>
     </text>

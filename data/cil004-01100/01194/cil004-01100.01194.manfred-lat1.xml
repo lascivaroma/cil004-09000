@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01194.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Glad</abbr><ex>iatorum</ex></expan></w> <w n="2"><supplied reason="lost"><expan><abbr>par</abbr><ex>ia</ex></expan></w> <w n="3">3</w> <w n="4"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></w> <w n="5">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">venatio</w> <w n="7">et</supplied></w> <w n="8">vela</w> <w n="9"><supplied reason="lost">erunt</supplied></w> <lb n="2"/> <w n="10"><supplied reason="lost">3</supplied></w> <w n="11">XIII</w> <w n="12"><expan><abbr>K</abbr><ex>alendas</ex></expan></w> <w n="13"><gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1"><expan><abbr>Glad</abbr><ex>iatorum</ex></expan></w> <w n="2"><supplied reason="lost"><expan><abbr>par</abbr><ex>ia</ex></expan></w> <w n="3">3</w> <w n="4"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></w> <w n="5">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">venatio</supplied></w> <w n="7"><supplied reason="lost">et</supplied></w> <w n="8">vela</w> <w n="9"><supplied reason="lost">erunt</supplied></w> <lb n="2"/> <w n="10"><supplied reason="lost">3</supplied></w> <w n="11">XIII</w> <w n="12"><expan><abbr>K</abbr><ex>alendas</ex></expan></w> <w n="13"><gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

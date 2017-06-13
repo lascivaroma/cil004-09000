@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01595.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">Ser</supplied>pentis</w> <w n="2">lusus</w> <w n="3">si</w> <w n="4">qui</w> <w n="5">sibi</w> <w n="6">forte</w> <w n="7">notavit</w> <w n="8">Sepumius</w> <w n="9">iuvenis</w> <w n="10">quos</w> <w n="11"><expan><abbr>fac</abbr><ex>i</ex><abbr>t</abbr></expan></w> <w n="12">ingenio</w> <w n="13">spectator</w> <w n="14">scaenae</w> <w n="15">sive</w> <w n="16">es</w> <w n="17">studiosus</w> <w n="18">e<supplied reason="lost">q</supplied>uorum</w> <w n="19">sic</w> <w n="20">habeas</w> <w n="21"><supplied reason="lost">lanc</supplied>es</w> <w n="22">se<supplied reason="lost">mp</supplied>er</w> <w n="23">ubiq<supplied reason="lost">ue</w> <w n="24">pares</supplied></w></ab>
+                <ab><w n="1"><supplied reason="lost">Ser</supplied>pentis</w> <w n="2">lusus</w> <w n="3">si</w> <w n="4">qui</w> <w n="5">sibi</w> <w n="6">forte</w> <w n="7">notavit</w> <w n="8">Sepumius</w> <w n="9">iuvenis</w> <w n="10">quos</w> <w n="11"><expan><abbr>fac</abbr><ex>i</ex><abbr>t</abbr></expan></w> <w n="12">ingenio</w> <w n="13">spectator</w> <w n="14">scaenae</w> <w n="15">sive</w> <w n="16">es</w> <w n="17">studiosus</w> <w n="18">e<supplied reason="lost">q</supplied>uorum</w> <w n="19">sic</w> <w n="20">habeas</w> <w n="21"><supplied reason="lost">lanc</supplied>es</w> <w n="22">se<supplied reason="lost">mp</supplied>er</w> <w n="23">ubiq<supplied reason="lost">ue</supplied></w> <w n="24"><supplied reason="lost">pares</supplied></w></ab>
             </div>
         </body>
     </text>

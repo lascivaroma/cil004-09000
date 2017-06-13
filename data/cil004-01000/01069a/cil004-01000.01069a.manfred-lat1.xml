@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01000.01069a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Barbarus</w> <w n="2">aere</w> <w n="3">cavo</w> <w n="4">tubicen</w> <w n="5">d<supplied reason="lost">ed</supplied>it</w> <w n="6"><supplied reason="lost">horrida</w> <w n="7">si</supplied>gna</w></ab>
+                <ab><w n="1">Barbarus</w> <w n="2">aere</w> <w n="3">cavo</w> <w n="4">tubicen</w> <w n="5">d<supplied reason="lost">ed</supplied>it</w> <w n="6"><supplied reason="lost">horrida</supplied></w> <w n="7"><supplied reason="lost">si</supplied>gna</w></ab>
             </div>
         </body>
     </text>

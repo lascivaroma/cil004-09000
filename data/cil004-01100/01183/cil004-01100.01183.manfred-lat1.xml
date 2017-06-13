@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01183.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>N</abbr><ex>umeri</ex></expan></w> <w n="2">Festi</w> <w n="3">Ampliati</w> <lb n="1"/> <w n="4">familia</w> <w n="5">gladiatoria</w> <w n="6"><expan><abbr>pugna</abbr><ex>bit</ex></expan></w> <w n="7">iterum</w> <w n="8"><supplied reason="lost">3</supplied></w> <lb n="2"/> <w n="9"><expan><abbr>pugna</abbr><ex>bit</ex></expan></w> <w n="10"><supplied reason="lost">XVIII(?)</supplied></w> <w n="11">XVII</w> <w n="12"><supplied reason="lost"><expan><abbr>Kal</abbr><ex>endas</ex></expan></supplied></w> <w n="13"><expan><abbr>Iun</abbr><ex>ias</ex></expan></w> <w n="14">venatio</w> <w n="15">ven<supplied reason="lost">a</w> <w n="16">erunt</supplied></w></ab>
+                <ab><w n="1"><expan><abbr>N</abbr><ex>umeri</ex></expan></w> <w n="2">Festi</w> <w n="3">Ampliati</w> <lb n="1"/> <w n="4">familia</w> <w n="5">gladiatoria</w> <w n="6"><expan><abbr>pugna</abbr><ex>bit</ex></expan></w> <w n="7">iterum</w> <w n="8"><supplied reason="lost">3</supplied></w> <lb n="2"/> <w n="9"><expan><abbr>pugna</abbr><ex>bit</ex></expan></w> <w n="10"><supplied reason="lost">XVIII(?)</supplied></w> <w n="11">XVII</w> <w n="12"><supplied reason="lost"><expan><abbr>Kal</abbr><ex>endas</ex></expan></supplied></w> <w n="13"><expan><abbr>Iun</abbr><ex>ias</ex></expan></w> <w n="14">venatio</w> <w n="15">ven<supplied reason="lost">a</supplied></w> <w n="16"><supplied reason="lost">erunt</supplied></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00096.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><choice><orig>Lu</orig><sic>VI</sic></choice><supplied reason="lost">c</supplied>retium</w> <lb n="1"/> <w n="2">Holconium</w> <w n="3"><supplied reason="lost">P</supplied>riscum</w> <lb n="2"/> <w n="4"><supplied reason="lost">3</supplied>INIAID<gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1"><choice><corr>Lu</corr><sic>VI</sic></choice><supplied reason="lost">c</supplied>retium</w> <lb n="1"/> <w n="2">Holconium</w> <w n="3"><supplied reason="lost">P</supplied>riscum</w> <lb n="2"/> <w n="4"><supplied reason="lost">3</supplied>INIAID<gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

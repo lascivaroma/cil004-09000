@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01555.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>L</abbr><ex>ucio</ex></expan></w> <w n="2">Nonio</w> <w n="3">Asprenate</w> <lb n="1"/> <w n="4"><expan><abbr>A</abbr><ex>ulo</ex></expan></w> <w n="5">Plotio</w> <w n="6"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w> <w n="7">as<sic>s</sic>ellus</w> <w n="8">natus</w> <lb n="2"/> <w n="9">pridie</w> <w n="10">Nonas</w> <w n="11">capr<choice><orig>a</orig><sic>O</sic></choice>tinas</w></ab>
+                <ab><w n="1"><expan><abbr>L</abbr><ex>ucio</ex></expan></w> <w n="2">Nonio</w> <w n="3">Asprenate</w> <lb n="1"/> <w n="4"><expan><abbr>A</abbr><ex>ulo</ex></expan></w> <w n="5">Plotio</w> <w n="6"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></w> <w n="7">as<sic>s</sic>ellus</w> <w n="8">natus</w> <lb n="2"/> <w n="9">pridie</w> <w n="10">Nonas</w> <w n="11">capr<choice><corr>a</corr><sic>O</sic></choice>tinas</w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00048a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" />m</w> <w n="2"><expan><abbr>IIv</abbr><ex>irum</ex></expan></w> <w n="3"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><supplied reason="lost"><expan><abbr>f</abbr><ex>aciatis</ex></expan></supplied></w> <lb n="1"/> <w n="8"><supplied reason="lost"><expan><abbr>P</abbr><ex>ublium</ex></expan></w> <w n="9">Car</supplied>pinium(?)</w> <w n="10">qui</w> <lb n="2"/> <w n="11"><supplied reason="lost">fece</supplied>rit</w> <w n="12">P</w> <w n="13">P</w> <w n="14">P</w> <w n="15">Pefi<supplied reason="lost">3</supplied></w></ab>
+                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" />m</w> <w n="2"><expan><abbr>IIv</abbr><ex>irum</ex></expan></w> <w n="3"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><supplied reason="lost"><expan><abbr>f</abbr><ex>aciatis</ex></expan></supplied></w> <lb n="1"/> <w n="8"><supplied reason="lost"><expan><abbr>P</abbr><ex>ublium</ex></expan></supplied></w> <w n="9"><supplied reason="lost">Car</supplied>pinium(?)</w> <w n="10">qui</w> <lb n="2"/> <w n="11"><supplied reason="lost">fece</supplied>rit</w> <w n="12">P</w> <w n="13">P</w> <w n="14">P</w> <w n="15">Pefi<supplied reason="lost">3</supplied></w></ab>
             </div>
         </body>
     </text>

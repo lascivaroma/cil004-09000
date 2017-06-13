@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01300.01364.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Nomina</w> <w n="2">Nychi(?)</w> <lb n="1"/> <w n="3">genice</w> <lb n="2"/> <w n="4">thietice</w> <lb n="3"/> <w n="5">dotice</w> <lb n="4"/> <w n="6">onomastice</w> <lb n="5"/> <w n="7">phyrrice</w> <lb n="6"/> <w n="8">Byzantice</w> <lb n="7"/> <w n="9">Cretice</w> <lb n="8"/> <w n="10">dy<choice><orig>n</orig><sic>M</sic></choice>astice</w> <lb n="9"/> <w n="11">gymnice</w> <lb n="10"/> <w n="12">Chizecae</w> <lb n="11"/><lb n="12"/> <w n="13">patagricae</w> <lb n="13"/> <w n="14">onagricae</w></ab>
+                <ab><w n="1">Nomina</w> <w n="2">Nychi(?)</w> <lb n="1"/> <w n="3">genice</w> <lb n="2"/> <w n="4">thietice</w> <lb n="3"/> <w n="5">dotice</w> <lb n="4"/> <w n="6">onomastice</w> <lb n="5"/> <w n="7">phyrrice</w> <lb n="6"/> <w n="8">Byzantice</w> <lb n="7"/> <w n="9">Cretice</w> <lb n="8"/> <w n="10">dy<choice><corr>n</corr><sic>M</sic></choice>astice</w> <lb n="9"/> <w n="11">gymnice</w> <lb n="10"/> <w n="12">Chizecae</w> <lb n="11"/><lb n="12"/> <w n="13">patagricae</w> <lb n="13"/> <w n="14">onagricae</w></ab>
             </div>
         </body>
     </text>

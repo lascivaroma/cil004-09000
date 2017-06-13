@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01573.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Eulalus</w> <w n="2">Ver<supplied reason="lost">ae</w> <w n="3"><expan><abbr>sal</abbr><ex>utem</ex></expan></supplied></w> <lb n="1"/> <w n="4">ubique</w> <lb n="2"/> <w n="5">Eulalus</w> <w n="6">Hir</w> <lb n="3"/> <w n="7">Eulalus</w> <w n="8">mulierem</w> <lb n="4"/> <w n="9"><expan><abbr>va</abbr><ex>le</ex></expan></w> <w n="10">Eulale</w> <lb n="5"/><lb n="6"/> <w n="11">Me<supplied reason="lost">3</supplied></w> <lb n="7"/> <w n="12">Sum<supplied reason="lost">3</supplied></w> <lb n="8"/> <w n="13">Ire<supplied reason="lost">3</supplied></w> <lb n="9"/> <w n="14">F<supplied reason="lost">3</supplied></w> <lb n="10"/> <w n="15">V<gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1">Eulalus</w> <w n="2">Ver<supplied reason="lost">ae</supplied></w> <w n="3"><supplied reason="lost"><expan><abbr>sal</abbr><ex>utem</ex></expan></supplied></w> <lb n="1"/> <w n="4">ubique</w> <lb n="2"/> <w n="5">Eulalus</w> <w n="6">Hir</w> <lb n="3"/> <w n="7">Eulalus</w> <w n="8">mulierem</w> <lb n="4"/> <w n="9"><expan><abbr>va</abbr><ex>le</ex></expan></w> <w n="10">Eulale</w> <lb n="5"/><lb n="6"/> <w n="11">Me<supplied reason="lost">3</supplied></w> <lb n="7"/> <w n="12">Sum<supplied reason="lost">3</supplied></w> <lb n="8"/> <w n="13">Ire<supplied reason="lost">3</supplied></w> <lb n="9"/> <w n="14">F<supplied reason="lost">3</supplied></w> <lb n="10"/> <w n="15">V<gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01800.01895.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Quid</w> <w n="2">pote</w> <w n="3">ta<choice><orig>m</orig><sic>N</sic></choice></w> <w n="4">durum</w> <w n="5">sax<sic>s</sic>o</w> <w n="6">aut</w> <w n="7">quid</w> <w n="8">mollius</w> <w n="9">unda</w> <lb n="1"/> <w n="10">dura</w> <w n="11">tamen</w> <w n="12">molli</w> <w n="13">sax<sic>s</sic>a</w> <w n="14">cavantur</w> <w n="15">aqua</w></ab>
+                <ab><w n="1">Quid</w> <w n="2">pote</w> <w n="3">ta<choice><corr>m</corr><sic>N</sic></choice></w> <w n="4">durum</w> <w n="5">sax<sic>s</sic>o</w> <w n="6">aut</w> <w n="7">quid</w> <w n="8">mollius</w> <w n="9">unda</w> <lb n="1"/> <w n="10">dura</w> <w n="11">tamen</w> <w n="12">molli</w> <w n="13">sax<sic>s</sic>a</w> <w n="14">cavantur</w> <w n="15">aqua</w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01593.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">L</supplied>ivia</w> <w n="2">A<supplied reason="lost">lex</supplied>andro</w> <lb n="1"/> <w n="3"><expan><abbr>salute</abbr><ex>m</ex></expan></w> <lb n="2"/> <w n="4">si</w> <w n="5">vales</w> <w n="6">non</w> <w n="7">mu<choice><orig>l</orig><sic>N</sic></choice><expan><abbr>tu</abbr><ex>m</ex></expan></w> <w n="8">curo</w> <lb n="3"/> <w n="9">s<supplied reason="lost">i</w> <w n="10">fel</supplied>icite<supplied reason="lost">r</w> <w n="11">gau</supplied>deo</w></ab>
+                <ab><w n="1"><supplied reason="lost">L</supplied>ivia</w> <w n="2">A<supplied reason="lost">lex</supplied>andro</w> <lb n="1"/> <w n="3"><expan><abbr>salute</abbr><ex>m</ex></expan></w> <lb n="2"/> <w n="4">si</w> <w n="5">vales</w> <w n="6">non</w> <w n="7">mu<choice><corr>l</corr><sic>N</sic></choice><expan><abbr>tu</abbr><ex>m</ex></expan></w> <w n="8">curo</w> <lb n="3"/> <w n="9">s<supplied reason="lost">i</supplied></w> <w n="10"><supplied reason="lost">fel</supplied>icite<supplied reason="lost">r</supplied></w> <w n="11"><supplied reason="lost">gau</supplied>deo</w></ab>
             </div>
         </body>
     </text>

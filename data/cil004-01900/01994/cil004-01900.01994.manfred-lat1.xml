@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01900.01994.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Sex</abbr><ex>tus</ex></expan></w> <w n="2">Decimius</w> <w n="3">Rufus</w> <lb n="1"/> <w n="4">mil<choice><orig>e</orig><sic>I</sic></choice>s</w> <w n="5"><expan><abbr>coh</abbr><ex>ortis</ex></expan></w> <w n="6">V</w> <w n="7"><expan><abbr>pr</abbr><ex>aetoriae</ex></expan></w> <w n="8"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>centuria</ex></expan></w> <w n="9">Martialis</w></ab>
+                <ab><w n="1"><expan><abbr>Sex</abbr><ex>tus</ex></expan></w> <w n="2">Decimius</w> <w n="3">Rufus</w> <lb n="1"/> <w n="4">mil<choice><corr>e</corr><sic>I</sic></choice>s</w> <w n="5"><expan><abbr>coh</abbr><ex>ortis</ex></expan></w> <w n="6">V</w> <w n="7"><expan><abbr>pr</abbr><ex>aetoriae</ex></expan></w> <w n="8"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>centuria</ex></expan></w> <w n="9">Martialis</w></ab>
             </div>
         </body>
     </text>

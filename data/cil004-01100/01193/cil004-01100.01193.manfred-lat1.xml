@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01193.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Gladi<supplied reason="lost">atorum</supplied></w> <lb n="1"/> <w n="2"><expan><abbr>par</abbr><ex>ia</ex></expan></w> <w n="3">XX</w> <w n="4"><expan><abbr>Q</abbr><ex>uinti</ex></expan></w> <w n="5">P<supplied reason="lost">3</supplied></w> <lb n="2"/> <w n="6"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></w> <w n="7"><expan><abbr>Non</abbr><ex>is</ex></expan></w> <w n="8">A<supplied reason="lost">prilibus(?)</supplied></w> <lb n="3"/><lb n="4"/> <w n="9"><expan><abbr>C</abbr><ex>aius</ex></expan></w> <w n="10"><supplied reason="lost">3</w> <w n="11">Al</supplied>exis(?)</w></ab>
+                <ab><w n="1">Gladi<supplied reason="lost">atorum</supplied></w> <lb n="1"/> <w n="2"><expan><abbr>par</abbr><ex>ia</ex></expan></w> <w n="3">XX</w> <w n="4"><expan><abbr>Q</abbr><ex>uinti</ex></expan></w> <w n="5">P<supplied reason="lost">3</supplied></w> <lb n="2"/> <w n="6"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></w> <w n="7"><expan><abbr>Non</abbr><ex>is</ex></expan></w> <w n="8">A<supplied reason="lost">prilibus(?)</supplied></w> <lb n="3"/><lb n="4"/> <w n="9"><expan><abbr>C</abbr><ex>aius</ex></expan></w> <w n="10"><supplied reason="lost">3</supplied></w> <w n="11"><supplied reason="lost">Al</supplied>exis(?)</w></ab>
             </div>
         </body>
     </text>

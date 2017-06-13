@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02100.02119.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Vici</w> <w n="2">Nuceriae</w> <lb n="1"/> <w n="3">in</w> <w n="4">al<choice><orig>e</orig><sic>I</sic></choice>a</w> <w n="5"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>denarios</ex></expan></w> <w n="6">DCCCLV</w> <w n="7"><expan><abbr>s</abbr><ex>emis</ex></expan></w> <lb n="2"/> <w n="8">fide</w> <w n="9">bona</w></ab>
+                <ab><w n="1">Vici</w> <w n="2">Nuceriae</w> <lb n="1"/> <w n="3">in</w> <w n="4">al<choice><corr>e</corr><sic>I</sic></choice>a</w> <w n="5"><g type="claudian_y"/><expan><abbr><am><g type="symbol"/></am></abbr><ex>denarios</ex></expan></w> <w n="6">DCCCLV</w> <w n="7"><expan><abbr>s</abbr><ex>emis</ex></expan></w> <lb n="2"/> <w n="8">fide</w> <w n="9">bona</w></ab>
             </div>
         </body>
     </text>

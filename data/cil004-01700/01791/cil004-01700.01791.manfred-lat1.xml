@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01700.01791.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Suavis</w> <w n="2">amor</w> <w n="3">nostrost</w> <w n="4">a<supplied reason="lost">nimo</w> <w n="5">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">3</supplied>it</w> <w n="7">seniost</w> <w n="8">vet<gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1">Suavis</w> <w n="2">amor</w> <w n="3">nostrost</w> <w n="4">a<supplied reason="lost">nimo</supplied></w> <w n="5"><supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">3</supplied>it</w> <w n="7">seniost</w> <w n="8">vet<gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

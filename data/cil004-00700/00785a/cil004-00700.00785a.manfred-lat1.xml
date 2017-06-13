@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00700.00785a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Cusp<supplied reason="lost">ium</w> <w n="3">Pansam</supplied></w> <lb n="1"/> <w n="4"><expan><abbr>L</abbr><ex>ucium</ex></expan></w> <w n="5">Popidium</w> <w n="6">Secundum</w> <lb n="2"/> <w n="7">iuvenes</w> <w n="8">probos</w> <w n="9">dignos</w> <w n="10"><expan><abbr>r</abbr><ex>ei</ex></expan></w> <w n="11"><expan><abbr>p</abbr><ex>ublicae</ex></expan></w> <w n="12"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="13"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="14"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="3"/> <w n="15">s<supplied reason="lost">c</supplied><expan><abbr>r</abbr><ex>ipsit</ex></expan></w> <w n="16">Infantio</w></ab>
+                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Cusp<supplied reason="lost">ium</supplied></w> <w n="3"><supplied reason="lost">Pansam</supplied></w> <lb n="1"/> <w n="4"><expan><abbr>L</abbr><ex>ucium</ex></expan></w> <w n="5">Popidium</w> <w n="6">Secundum</w> <lb n="2"/> <w n="7">iuvenes</w> <w n="8">probos</w> <w n="9">dignos</w> <w n="10"><expan><abbr>r</abbr><ex>ei</ex></expan></w> <w n="11"><expan><abbr>p</abbr><ex>ublicae</ex></expan></w> <w n="12"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="13"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="14"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="3"/> <w n="15">s<supplied reason="lost">c</supplied><expan><abbr>r</abbr><ex>ipsit</ex></expan></w> <w n="16">Infantio</w></ab>
             </div>
         </body>
     </text>

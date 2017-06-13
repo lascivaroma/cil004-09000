@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02000.02013.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Ni<sic>y</sic>c<sic>h</sic>erate</w> <w n="2">v</w><lb n="1"/><w n="3">ana</w> <w n="4">succula</w> <lb n="2"/> <w n="5"><expan><abbr>qu</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="6">amas</w> <lb n="3"/> <w n="7"><expan><abbr>Felicione</abbr><ex>m</ex></expan></w> <lb n="4"/> <w n="8">et</w> <w n="9">at</w> <w n="10"><expan><abbr>porta</abbr><ex>m</ex></expan></w> <lb n="5"/> <w n="11">deduc<choice><orig>i</orig><sic>E</sic></choice>s</w> <lb n="6"/> <w n="12">illu<choice><orig>d</orig><sic>C</sic></choice></w> <lb n="7"/> <w n="13"><expan><abbr>tantu</abbr><ex>m</ex></expan></w> <lb n="8"/> <w n="14">in</w> <w n="15">mente</w> <lb n="9"/> <w n="16"><expan><ex>h</ex><abbr>abeto</abbr></expan></w></ab>
+                <ab><w n="1">Ni<sic>y</sic>c<sic>h</sic>erate</w> <w n="2">v</w><lb n="1"/><w n="3">ana</w> <w n="4">succula</w> <lb n="2"/> <w n="5"><expan><abbr>qu</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="6">amas</w> <lb n="3"/> <w n="7"><expan><abbr>Felicione</abbr><ex>m</ex></expan></w> <lb n="4"/> <w n="8">et</w> <w n="9">at</w> <w n="10"><expan><abbr>porta</abbr><ex>m</ex></expan></w> <lb n="5"/> <w n="11">deduc<choice><corr>i</corr><sic>E</sic></choice>s</w> <lb n="6"/> <w n="12">illu<choice><corr>d</corr><sic>C</sic></choice></w> <lb n="7"/> <w n="13"><expan><abbr>tantu</abbr><ex>m</ex></expan></w> <lb n="8"/> <w n="14">in</w> <w n="15">mente</w> <lb n="9"/> <w n="16"><expan><ex>h</ex><abbr>abeto</abbr></expan></w></ab>
             </div>
         </body>
     </text>

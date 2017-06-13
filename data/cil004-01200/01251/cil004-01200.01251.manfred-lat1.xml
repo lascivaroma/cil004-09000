@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01251.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">C<choice><orig>o</orig><sic>V</sic></choice>mm<supplied reason="lost">une</supplied>m</w> <w n="2">nummum</w> <w n="3">div<supplied reason="lost">ide</supplied>n<supplied reason="lost"><expan><abbr>d</abbr><ex>um</ex></expan></supplied></w> <lb n="1"/> <w n="4"><supplied reason="lost">3</supplied>ius</w> <lb n="2"/> <w n="5">venit</w> <w n="6">summa</w> <w n="7"><supplied reason="lost">3</supplied></w> <lb n="3"/> <w n="8">ICA<supplied reason="lost">3</supplied>nsiantum</w> <w n="9">Iovia<supplied reason="lost">3</supplied></w> <lb n="4"/> <w n="10"><supplied reason="lost">3</supplied>AAAAAAA</w> <w n="11">QVEAAANLIVMAN<supplied reason="lost">3</supplied>I<supplied reason="lost">3</supplied>vit</w></ab>
+                <ab><w n="1">C<choice><corr>o</corr><sic>V</sic></choice>mm<supplied reason="lost">une</supplied>m</w> <w n="2">nummum</w> <w n="3">div<supplied reason="lost">ide</supplied>n<supplied reason="lost"><expan><abbr>d</abbr><ex>um</ex></expan></supplied></w> <lb n="1"/> <w n="4"><supplied reason="lost">3</supplied>ius</w> <lb n="2"/> <w n="5">venit</w> <w n="6">summa</w> <w n="7"><supplied reason="lost">3</supplied></w> <lb n="3"/> <w n="8">ICA<supplied reason="lost">3</supplied>nsiantum</w> <w n="9">Iovia<supplied reason="lost">3</supplied></w> <lb n="4"/> <w n="10"><supplied reason="lost">3</supplied>AAAAAAA</w> <w n="11">QVEAAANLIVMAN<supplied reason="lost">3</supplied>I<supplied reason="lost">3</supplied>vit</w></ab>
             </div>
         </body>
     </text>

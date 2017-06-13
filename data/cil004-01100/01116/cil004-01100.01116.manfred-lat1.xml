@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01116.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Popidium</w> <w n="2"><expan><abbr>Ruf</abbr><ex>um</ex></expan></w> <lb n="1"/> <w n="3">aedili</w> <w n="4">BEN</w> <lb n="2"/> <w n="5"><supplied reason="lost"><expan><abbr>N</abbr><ex>umeri</ex></expan></w> <w n="6">Popid</supplied>i</w> <w n="7">Rufi</w></ab>
+                <ab><w n="1">Popidium</w> <w n="2"><expan><abbr>Ruf</abbr><ex>um</ex></expan></w> <lb n="1"/> <w n="3">aedili</w> <w n="4">BEN</w> <lb n="2"/> <w n="5"><supplied reason="lost"><expan><abbr>N</abbr><ex>umeri</ex></expan></supplied></w> <w n="6"><supplied reason="lost">Popid</supplied>i</w> <w n="7">Rufi</w></ab>
             </div>
         </body>
     </text>

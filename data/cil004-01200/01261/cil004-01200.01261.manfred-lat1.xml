@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01261.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Futebatur</w> <w n="2">inquam</w> <w n="3">futuebatur</w> <w n="4">civium</w> <w n="5">Romanorum</w> <w n="6"><expan><abbr>at</abbr><ex>t</ex><abbr>ractis</abbr></expan></w> <w n="7">pedibus</w> <w n="8"><expan><abbr>cun</abbr><ex>n</ex><abbr>us</abbr></expan></w> <lb n="1"/> <w n="9">in</w> <w n="10">qua</w> <w n="11"><expan><abbr>nul</abbr><ex>la</ex><abbr>e</abbr></expan></w> <w n="12">aliae</w> <w n="13">v<choice><orig>i</orig><sic>E</sic></choice>ces</w> <w n="14">erant</w> <w n="15">nisissei</w> <w n="16"><expan><abbr>dulcis</abbr><ex>s</ex><abbr>im</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="17">et</w> <w n="18"><expan><abbr>pi</abbr><ex>i</ex><abbr>ssimae</abbr></expan></w></ab>
+                <ab><w n="1">Futebatur</w> <w n="2">inquam</w> <w n="3">futuebatur</w> <w n="4">civium</w> <w n="5">Romanorum</w> <w n="6"><expan><abbr>at</abbr><ex>t</ex><abbr>ractis</abbr></expan></w> <w n="7">pedibus</w> <w n="8"><expan><abbr>cun</abbr><ex>n</ex><abbr>us</abbr></expan></w> <lb n="1"/> <w n="9">in</w> <w n="10">qua</w> <w n="11"><expan><abbr>nul</abbr><ex>la</ex><abbr>e</abbr></expan></w> <w n="12">aliae</w> <w n="13">v<choice><corr>i</corr><sic>E</sic></choice>ces</w> <w n="14">erant</w> <w n="15">nisissei</w> <w n="16"><expan><abbr>dulcis</abbr><ex>s</ex><abbr>im</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w n="17">et</w> <w n="18"><expan><abbr>pi</abbr><ex>i</ex><abbr>ssimae</abbr></expan></w></ab>
             </div>
         </body>
     </text>

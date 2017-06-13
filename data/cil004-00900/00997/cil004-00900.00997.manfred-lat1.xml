@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00900.00997.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Gla<supplied reason="lost">diatorum</w> <w n="2">paria</w> <w n="3">3</supplied></w> <lb n="1"/> <w n="4">pu[<expan><abbr>gn</abbr><ex>abunt</ex></expan></w></ab>
+                <ab><w n="1">Gla<supplied reason="lost">diatorum</supplied></w> <w n="2"><supplied reason="lost">paria</supplied></w> <w n="3"><supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="4">pu[<expan><abbr>gn</abbr><ex>abunt</ex></expan></w></ab>
             </div>
         </body>
     </text>

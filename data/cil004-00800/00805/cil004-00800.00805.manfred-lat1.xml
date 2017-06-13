@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00800.00805.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">3</supplied></w> <w n="2">Siricum</w> <w n="3"><supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="4"><expan><abbr>II</abbr><ex>virum</ex></expan></w> <lb n="2"/> <w n="5"><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintum</ex></expan></w> <w n="6">Post</supplied>umium</w> <w n="7">Modestum</w> <w n="8"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="3"/> <w n="9">Sirice</w> <w n="10">fac</w> <w n="11">facias</w></ab>
+                <ab><w n="1"><supplied reason="lost">3</supplied></w> <w n="2">Siricum</w> <w n="3"><supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="4"><expan><abbr>II</abbr><ex>virum</ex></expan></w> <lb n="2"/> <w n="5"><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintum</ex></expan></supplied></w> <w n="6"><supplied reason="lost">Post</supplied>umium</w> <w n="7">Modestum</w> <w n="8"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="3"/> <w n="9">Sirice</w> <w n="10">fac</w> <w n="11">facias</w></ab>
             </div>
         </body>
     </text>
