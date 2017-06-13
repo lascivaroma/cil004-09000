@@ -55,10 +55,8 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00091.manfred-lat1" xml:lang="lat">
-                <ab>
-                    <w n="1">TA</w><lb n="1"/> <w n="2"><gap reason="lost" extent="unknown" unit="character"/></w> <lb n="2"/><lb n="3"/> <w n="3"><expan><abbr>L</abbr><ex>ucius</ex></expan></w> <w n="4">Staius</w> <lb n="4"/> <w n="5">Proculus</w> <lb n="5"/> <w n="6">IA<supplied reason="lost">3</supplied>TI<gap reason="lost" extent="unknown" unit="character"/></w> <lb n="6"/><lb n="7"/> <w n="7"><gap reason="lost" extent="unknown" unit="character"/>tus</w>
-                    
-                </ab> </div>
+                <ab><w n="1">TA</w><lb n="1"/> <w n="2"><gap reason="lost" extent="unknown" unit="character"/></w> <lb n="2"/><lb n="3"/> <w n="3"><expan><abbr>L</abbr><ex>ucius</ex></expan></w> <w n="4">Staius</w> <lb n="4"/> <w n="5">Proculus</w> <lb n="5"/> <w n="6">IA<supplied reason="lost">3</supplied>TI<gap reason="lost" extent="unknown" unit="character"/></w> <lb n="6"/><lb n="7"/> <w n="7"><gap reason="lost" extent="unknown" unit="character"/>tus</w></ab>
+            </div>
         </body>
     </text>
 </TEI>

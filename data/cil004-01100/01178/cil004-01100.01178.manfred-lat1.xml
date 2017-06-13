@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01178.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Dedication<supplied reason="lost">e</supplied></w> <lb n="1"/> <w n="2">o<supplied reason="lost">peris</supplied></w> <w n="3"><supplied reason="lost">tabula</supplied>rum</w> <w n="4"><supplied reason="lost">muneris(?)</supplied></w> <w n="5"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="6">Allei</w> <w n="7">Mai</w> <w n="8"><supplied reason="lost"></w> <lb n="2"/><lb n="3"/> <w n="9"><expan><abbr>Scr</abbr><ex>ipsit</ex></expan></w> <lb n="4"/><lb n="5"/> <w n="10">Grosphos[3</supplied></w></ab>
+                <ab><w n="1">Dedication<supplied reason="lost">e</supplied></w> <lb n="1"/> <w n="2">o<supplied reason="lost">peris</supplied></w> <w n="3"><supplied reason="lost">tabula</supplied>rum</w> <w n="4"><supplied reason="lost">muneris(?)</supplied></w> <w n="5"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="6">Allei</w> <w n="7">Mai</w> <w n="8"><gap reason="lost" extent="unknown" unit="character"/></w> <lb n="2"/><lb n="3"/> <w n="9"><expan><abbr>Scr</abbr><ex>ipsit</ex></expan></w> <lb n="4"/><lb n="5"/> <w n="10">Grosphos<supplied reason="lost">3</supplied></w></ab>
             </div>
         </body>
     </text>
