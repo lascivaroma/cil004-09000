@@ -60,6 +60,8 @@
 
 # Parentheses
 (\S+)\((-\s*)+\)                        			=   <abbr>$1</abbr>
+# Gn(aei!)                                          =   <expan cert="low"><abbr>Gn</abbr><ex>aei</ex></expan>
+([A-Za-z0-9]+)?\((\w+)\!\)([A-Za-z0-9]+)?           =   <expan cert="low"><abbr>$1</abbr><ex>$2</ex><abbr>$3</abbr></expan>
 ([A-Za-z0-9]+)\(([A-Za-z0-9]+)\)([A-Za-z0-9]+)		=   <expan><abbr>$1</abbr><ex>$2</ex><abbr>$3</abbr></expan>
 ([A-Za-z0-9]+)?\(([A-Za-z0-9]+)\?\)([A-Za-z0-9]+)?  =   <expan><abbr>$1</abbr><ex cert="low">$2</ex><abbr>$3</abbr></expan>
 \(([A-Za-z0-9]+)\)([A-Za-z0-9]+)					=   <expan><ex>$1</ex><abbr>$2</abbr></expan>
