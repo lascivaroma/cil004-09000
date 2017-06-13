@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17db8d6c-8766-4f49-857e-7ed98a867346" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/replacements.txt" afterPath="$PROJECT_DIR$/replacements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/converter.manfred.py" afterPath="$PROJECT_DIR$/converter.manfred.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="converter.manfred.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="converter.manfred.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/converter.manfred.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="99" selection-start-line="115" selection-start-column="99" selection-end-line="115" selection-end-column="99" />
+            <state vertical-scroll-proportion="0.79480517">
+              <caret line="132" column="75" selection-start-line="132" selection-start-column="75" selection-end-line="132" selection-end-column="75" />
               <folding>
                 <element signature="e#0#90#0" expanded="true" />
               </folding>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replacements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="replacements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/replacements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51428574">
+            <state vertical-scroll-proportion="0.0">
               <caret line="63" column="95" selection-start-line="63" selection-start-column="95" selection-end-line="63" selection-end-column="95" />
               <folding />
             </state>
@@ -157,9 +157,9 @@
         <option value="$PROJECT_DIR$/chetc.py" />
         <option value="$PROJECT_DIR$/chetcorig.py" />
         <option value="$PROJECT_DIR$/templates/template.jinja.xml" />
-        <option value="$PROJECT_DIR$/converter.manfred.py" />
         <option value="$PROJECT_DIR$/templates/template.textgroup.xml" />
         <option value="$PROJECT_DIR$/replacements.txt" />
+        <option value="$PROJECT_DIR$/converter.manfred.py" />
       </list>
     </option>
   </component>
@@ -857,16 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/converter.manfred.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="99" selection-start-line="115" selection-start-column="99" selection-end-line="115" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/template.textgroup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -885,9 +875,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/replacements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51428574">
+        <state vertical-scroll-proportion="0.0">
           <caret line="63" column="95" selection-start-line="63" selection-start-column="95" selection-end-line="63" selection-end-column="95" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converter.manfred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79480517">
+          <caret line="132" column="75" selection-start-line="132" selection-start-column="75" selection-end-line="132" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

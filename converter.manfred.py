@@ -130,7 +130,7 @@ with open("sources/Epigraphik Datenbank.html") as source:
         edition.metadata.add(DCTERMS.term("provenance"), "http://manfredclauss.de/gb/index.html")
         edition.metadata.add(DCTERMS.term("source"), "http://www.worldcat.org/oclc/459220842")
         edition.metadata.add(DCTERMS.term("contributor"), "Manfred Klaus")
-        edition.metadata.add(DCTERMS.term("contributor"), "Thibault Clérices")
+        edition.metadata.add(DCTERMS.term("contributor"), "Thibault Clérice")
         edition.metadata.add(DC.term("format"), "text/xml")
 
         try:
