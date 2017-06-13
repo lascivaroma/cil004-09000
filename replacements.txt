@@ -11,6 +11,9 @@
 # regular expressions, capturing groups are delimited by parentheses.
 
 
+(\[\s*\/)                                                         =   [?] /
+# / ]tus                                                          =   / []tus
+(\/\s*\])                                                         =   / [?]
 \[([\w\(\)\?\!]+) ([\w\(\)\?\!]+)\]                               =   [$1] [$2]
 \[([\w\(\)\?\!]+) ([\w\(\)\?\!]+) ([\w\(\)\?\!]+)\]                   =   [$1] [$2] [$3]
 ([^\s/]+)                                   =   <w n="%mkIDW">$1</w>
@@ -51,6 +54,7 @@
 
 # Brackets
 \[-\]										=	<name><gap reason="lost" extent="unknown" unit="character"/></name>
+\[\?\]										=	<gap reason="lost" extent="unknown" unit="character"/>
 \s*\[-\s(?:[-\s\]]+)\?\]\s*(\n)*          	=   <gap reason="lost" extent="1" unit="line" id="%mkID1"/><certainty target="%mkID1" locus="extent" degree="low"/>
 \s*\[-\s(?:[-\s\]]+)\]\s*(\n)*          	=   <gap reason="lost" extent="1" unit="line"/>$1
 ([^\[]*)\[([-\s\]]+)\]                 		=   $1<gap reason="lost" extent="unknown" unit="character" xml:id="%mkID1"/><certainty target="%mkID1" locus="location" degree="0"/>
