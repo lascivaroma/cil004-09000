@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00500.00538.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Tetraites</w> <w n="2">Prudes</w> <w n="3">Prudes</w> <w n="4"><expan><abbr>l</abbr><ex>udes</ex></expan></w> <w n="5">XIIX</w> <w n="6">Tetraites</w> <w n="7"><expan><abbr>l</abbr><ex>udes</ex></expan></w> <w n="8">X<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="9"><expan><ex>h</ex><abbr>abiat</abbr></expan></w> <w n="10">Venere</w> <w n="11"><P=B>ompei<sic>i</sic>ana</w> <w n="12">iratam</w> <w n="13">qui</w> <w n="14">hoc</w> <w n="15">laesaerit</w></ab>
+                <ab><w n="1">Tetraites</w> <w n="2">Prudes</w> <w n="3">Prudes</w> <w n="4"><expan><abbr>l</abbr><ex>udes</ex></expan></w> <w n="5">XIIX</w> <w n="6">Tetraites</w> <w n="7"><expan><abbr>l</abbr><ex>udes</ex></expan></w> <w n="8">X<supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="9"><expan><ex>h</ex><abbr>abiat</abbr></expan></w> <w n="10">Venere</w> <w n="11"><choice><orig>P</orig><sic>B</sic></choice>ompei<sic>i</sic>ana</w> <w n="12">iratam</w> <w n="13">qui</w> <w n="14">hoc</w> <w n="15">laesaerit</w></ab>
             </div>
         </body>
     </text>

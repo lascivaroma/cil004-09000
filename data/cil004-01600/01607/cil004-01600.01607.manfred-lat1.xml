@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01600.01607.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Tullio</w> <w n="2">Severo</w> <w n="3">ro<c=G>o</w> <w n="4"><supplied reason="lost">te</supplied></w> <w n="5">VFFVFLIIVM</w> <lb n="1"/> <w n="6">referas</w> <w n="7">in</w> <w n="8">urgulan<supplied reason="lost">3</supplied></w> <w n="9"><supplied reason="lost">veter</supplied>anus</w> <lb n="2"/> <w n="10"><expan><abbr>Q</abbr><ex>uintus</ex></expan></w> <w n="11">Naevius</w> <w n="12">te</w> <w n="13">rogat</w> <w n="14"><expan><abbr>val</abbr><ex>e</ex></expan></w></ab>
+                <ab><w n="1">Tullio</w> <w n="2">Severo</w> <w n="3">ro<choice><orig>c</orig><sic>G</sic></choice>o</w> <w n="4"><supplied reason="lost">te</supplied></w> <w n="5">VFFVFLIIVM</w> <lb n="1"/> <w n="6">referas</w> <w n="7">in</w> <w n="8">urgulan<supplied reason="lost">3</supplied></w> <w n="9"><supplied reason="lost">veter</supplied>anus</w> <lb n="2"/> <w n="10"><expan><abbr>Q</abbr><ex>uintus</ex></expan></w> <w n="11">Naevius</w> <w n="12">te</w> <w n="13">rogat</w> <w n="14"><expan><abbr>val</abbr><ex>e</ex></expan></w></ab>
             </div>
         </body>
     </text>

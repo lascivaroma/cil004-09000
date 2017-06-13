@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02000.02052.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Quaecumquae</w> <w n="2">in</w> <lb n="1"/> <w n="3">quaecumquae</w> <w n="4">in</w> <w n="5">vin<o=A></w> <lb n="2"/> <w n="6"><expan><abbr>nascituru</abbr><ex>m</ex></expan></w> <lb n="3"/> <w n="7">quaecumqui</w> <lb n="4"/> <w n="8">quaec<supplied reason="lost">u</supplied><expan><abbr>mq</abbr><ex>ue</ex></expan></w> <w n="9">in</w> <w n="10">vino</w> <w n="11">nata</w></ab>
+                <ab><w n="1">Quaecumquae</w> <w n="2">in</w> <lb n="1"/> <w n="3">quaecumquae</w> <w n="4">in</w> <w n="5">vin<choice><orig>o</orig><sic>A</sic></choice></w> <lb n="2"/> <w n="6"><expan><abbr>nascituru</abbr><ex>m</ex></expan></w> <lb n="3"/> <w n="7">quaecumqui</w> <lb n="4"/> <w n="8">quaec<supplied reason="lost">u</supplied><expan><abbr>mq</abbr><ex>ue</ex></expan></w> <w n="9">in</w> <w n="10">vino</w> <w n="11">nata</w></ab>
             </div>
         </body>
     </text>

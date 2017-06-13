@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00700.00743.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><A=I><expan><abbr><am><g type="symbol"/></am></abbr><ex>ulum</ex></expan></w> <w n="2">Trebium</w> <lb n="1"/> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="4">tonsores</w></ab>
+                <ab><w n="1"><choice><orig>A</orig><sic>I</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>ulum</ex></expan></w> <w n="2">Trebium</w> <lb n="1"/> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="4">tonsores</w></ab>
             </div>
         </body>
     </text>

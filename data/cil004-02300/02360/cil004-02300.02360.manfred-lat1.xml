@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02300.02360.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Amat</w> <w n="2">qui</w> <w n="3">scrib<i=E>t</w> <w n="4">pedicatur</w> <w n="5">qui</w> <w n="6">leg<i=E>t</w> <lb n="1"/> <w n="7">qui</w> <w n="8"><a=O><expan><abbr><am><g type="symbol"/></am></abbr><ex>u</ex></expan><sic>p</sic>scultat</w> <w n="9">prurit</w> <w n="10"><expan><abbr>pat</abbr><ex>h</ex><abbr>icus</abbr></expan></w> <w n="11">est</w> <w n="12">qui</w> <w n="13">praeterit</w> <lb n="2"/> <w n="14">ursi</w> <w n="15">me</w> <w n="16">comedant</w> <w n="17">et</w> <w n="18">ego</w> <w n="19"><expan><abbr>verpa</abbr><ex>m</ex></expan></w> <w n="20">qui</w> <w n="21">lego</w></ab>
+                <ab><w n="1">Amat</w> <w n="2">qui</w> <w n="3">scrib<choice><orig>i</orig><sic>E</sic></choice>t</w> <w n="4">pedicatur</w> <w n="5">qui</w> <w n="6">leg<choice><orig>i</orig><sic>E</sic></choice>t</w> <lb n="1"/> <w n="7">qui</w> <w n="8"><choice><orig>a</orig><sic>O</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>u</ex></expan><sic>p</sic>scultat</w> <w n="9">prurit</w> <w n="10"><expan><abbr>pat</abbr><ex>h</ex><abbr>icus</abbr></expan></w> <w n="11">est</w> <w n="12">qui</w> <w n="13">praeterit</w> <lb n="2"/> <w n="14">ursi</w> <w n="15">me</w> <w n="16">comedant</w> <w n="17">et</w> <w n="18">ego</w> <w n="19"><expan><abbr>verpa</abbr><ex>m</ex></expan></w> <w n="20">qui</w> <w n="21">lego</w></ab>
             </div>
         </body>
     </text>

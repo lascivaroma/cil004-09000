@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01800.01811.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Minimum</w> <w n="2">malum</w> <w n="3">fit</w> <w n="4">conte<supplied reason="lost">m</supplied>nendo</w> <w n="5">max<i=U><supplied reason="lost">mum</supplied></w></ab>
+                <ab><w n="1">Minimum</w> <w n="2">malum</w> <w n="3">fit</w> <w n="4">conte<supplied reason="lost">m</supplied>nendo</w> <w n="5">max<choice><orig>i</orig><sic>U</sic></choice><supplied reason="lost">mum</supplied></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02100.02109a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">G(aius!)</w> <w n="2">Vu<expan><abbr>l</abbr><ex extent="unknown"></ex></expan></w></ab>
+                <ab><w n="1"><expan cert="low"><abbr>G</abbr><ex>aius</ex></expan></w> <w n="2">Vu<expan><abbr>l</abbr><ex extent="unknown"></ex></expan></w></ab>
             </div>
         </body>
     </text>

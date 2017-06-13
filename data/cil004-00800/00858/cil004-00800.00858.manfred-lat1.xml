@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00800.00858.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Calventium</w> <w n="3">Sittium</w> <lb n="1"/> <w n="4"><expan><abbr>IIvir</abbr><ex>um</ex></expan></w> <w n="5"><expan><abbr>i</abbr><ex>ure</ex></expan></w> <w n="6"><expan><abbr>d</abbr><ex>icundo</ex></expan></w> <w n="7">Uboni</w> <w n="8">vig<i=U>la</w></ab>
+                <ab><w n="1"><expan><abbr>C</abbr><ex>aium</ex></expan></w> <w n="2">Calventium</w> <w n="3">Sittium</w> <lb n="1"/> <w n="4"><expan><abbr>IIvir</abbr><ex>um</ex></expan></w> <w n="5"><expan><abbr>i</abbr><ex>ure</ex></expan></w> <w n="6"><expan><abbr>d</abbr><ex>icundo</ex></expan></w> <w n="7">Uboni</w> <w n="8">vig<choice><orig>i</orig><sic>U</sic></choice>la</w></ab>
             </div>
         </body>
     </text>

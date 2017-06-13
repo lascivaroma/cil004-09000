@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02900.02993k.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Gn(aeum!)</w> <w n="2"><expan><abbr>H</abbr><ex>elvium</ex></expan></w> <w n="3"><expan><abbr>S</abbr><ex>abinum</ex></expan></w></ab>
+                <ab><w n="1"><expan cert="low"><abbr>Gn</abbr><ex>aeum</ex></expan></w> <w n="2"><expan><abbr>H</abbr><ex>elvium</ex></expan></w> <w n="3"><expan><abbr>S</abbr><ex>abinum</ex></expan></w></ab>
             </div>
         </body>
     </text>

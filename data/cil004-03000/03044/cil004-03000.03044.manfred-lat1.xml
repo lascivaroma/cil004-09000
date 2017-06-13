@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03000.03044.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Omnes</w> <w n="2">cun<n=E>i</w> <lb n="1"/> <w n="3">valete</w> <w n="4">I<supplied reason="lost">3</supplied>ula</w> <lb n="2"/> <w n="5">C<supplied reason="lost">3</supplied>tor</w> <w n="6">ut<supplied reason="lost">3</supplied>am</w> <lb n="3"/> <w n="7">fut<supplied reason="lost">3</supplied></w> <w n="8">aliam<supplied reason="lost">3</supplied></w> <lb n="4"/> <w n="9"><supplied reason="lost">3</supplied>unam</w> <w n="10">sis<supplied reason="lost">3</supplied>r<supplied reason="lost">3</supplied></w> <lb n="5"/> <w n="11"><supplied reason="lost">3</supplied>tepa<supplied reason="lost">3</supplied>sam</w></ab>
+                <ab><w n="1">Omnes</w> <w n="2">cun<choice><orig>n</orig><sic>E</sic></choice>i</w> <lb n="1"/> <w n="3">valete</w> <w n="4">I<supplied reason="lost">3</supplied>ula</w> <lb n="2"/> <w n="5">C<supplied reason="lost">3</supplied>tor</w> <w n="6">ut<supplied reason="lost">3</supplied>am</w> <lb n="3"/> <w n="7">fut<supplied reason="lost">3</supplied></w> <w n="8">aliam<supplied reason="lost">3</supplied></w> <lb n="4"/> <w n="9"><supplied reason="lost">3</supplied>unam</w> <w n="10">sis<supplied reason="lost">3</supplied>r<supplied reason="lost">3</supplied></w> <lb n="5"/> <w n="11"><supplied reason="lost">3</supplied>tepa<supplied reason="lost">3</supplied>sam</w></ab>
             </div>
         </body>
     </text>

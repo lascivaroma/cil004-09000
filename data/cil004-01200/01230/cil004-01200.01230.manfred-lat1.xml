@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01200.01230.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Fortunatus</w> <w n="2">futu<i=E>t</w> <w n="3">te</w> <w n="4">inguine</w> <lb n="1"/> <w n="5">ven<i=E></w> <w n="6">vide</w> <w n="7">Anthusa</w></ab>
+                <ab><w n="1">Fortunatus</w> <w n="2">futu<choice><orig>i</orig><sic>E</sic></choice>t</w> <w n="3">te</w> <w n="4">inguine</w> <lb n="1"/> <w n="5">ven<choice><orig>i</orig><sic>E</sic></choice></w> <w n="6">vide</w> <w n="7">Anthusa</w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02300.02319a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Tertulia</w> <lb n="1"/> <w n="2"><expan><abbr>Tertul</abbr><ex>ia</ex></expan></w> <lb n="2"/> <w n="3">Tertu<li=IL>a</w></ab>
+                <ab><w n="1">Tertulia</w> <lb n="1"/> <w n="2"><expan><abbr>Tertul</abbr><ex>ia</ex></expan></w> <lb n="2"/> <w n="3">Tertu<choice><orig>li</orig><sic>IL</sic></choice>a</w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02200.02277.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Irrumo</w> <w n="2">se<d=T></w> <w n="3">V<supplied reason="lost">3</supplied>K<supplied reason="lost">3</supplied>AS</w></ab>
+                <ab><w n="1">Irrumo</w> <w n="2">se<choice><orig>d</orig><sic>T</sic></choice></w> <w n="3">V<supplied reason="lost">3</supplied>K<supplied reason="lost">3</supplied>AS</w></ab>
             </div>
         </body>
     </text>

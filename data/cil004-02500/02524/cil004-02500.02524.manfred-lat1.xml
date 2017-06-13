@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02500.02524.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">ABCDe<F=I>HG<note>!</note></w></ab>
+                <ab><w n="1">ABCDe<choice><orig>F</orig><sic>I</sic></choice>HG<note>!</note></w></ab>
             </div>
         </body>
     </text>

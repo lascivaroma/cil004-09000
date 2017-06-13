@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00086.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><L=I><expan><abbr><am><g type="symbol"/></am></abbr><ex>ucium</ex></expan></w> <w n="2">A<l=I>bucium</w> <w n="3">C<gap reason="lost" extent="unknown" unit="line" />elsum</w></ab>
+                <ab><w n="1"><choice><orig>L</orig><sic>I</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>ucium</ex></expan></w> <w n="2">A<choice><orig>l</orig><sic>I</sic></choice>bucium</w> <w n="3">C<gap reason="lost" extent="unknown" unit="line" />elsum</w></ab>
             </div>
         </body>
     </text>

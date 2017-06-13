@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02200.02288.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Synethus</w> <lb n="1"/> <w n="2">Faustillam</w> <lb n="2"/> <w n="3">futuit</w> <lb n="3"/> <w n="4"><u=O><expan><abbr>biq</abbr><ex>u</ex><abbr>e</abbr></expan></w> <w n="5">rite</w></ab>
+                <ab><w n="1">Synethus</w> <lb n="1"/> <w n="2">Faustillam</w> <lb n="2"/> <w n="3">futuit</w> <lb n="3"/> <w n="4"><choice><orig>u</orig><sic>O</sic></choice><expan><abbr>biq</abbr><ex>u</ex><abbr>e</abbr></expan></w> <w n="5">rite</w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01516.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Hic</w> <w n="2">ego</w> <w n="3">nu<supplied reason="lost">nc</w> <w n="4">f</supplied><expan><abbr>utu</abbr><ex>i</ex><abbr>e</abbr></expan></w> <w n="5"><expan><abbr>formosa</abbr><ex>m</ex></expan></w> <w n="6">fo<supplied reason="lost">r</supplied>ma</w> <w n="7"><expan><abbr>puella</abbr><ex>m</ex></expan></w> <w n="8"><expan><abbr>laudata</abbr><ex>m</ex></expan></w> <w n="9">a</w> <w n="10">multis</w> <w n="11">se<d=T></w> <w n="12">lutus</w> <w n="13">intus</w> <w n="14"><sic>e</sic>erat</w></ab>
+                <ab><w n="1">Hic</w> <w n="2">ego</w> <w n="3">nu<supplied reason="lost">nc</w> <w n="4">f</supplied><expan><abbr>utu</abbr><ex>i</ex><abbr>e</abbr></expan></w> <w n="5"><expan><abbr>formosa</abbr><ex>m</ex></expan></w> <w n="6">fo<supplied reason="lost">r</supplied>ma</w> <w n="7"><expan><abbr>puella</abbr><ex>m</ex></expan></w> <w n="8"><expan><abbr>laudata</abbr><ex>m</ex></expan></w> <w n="9">a</w> <w n="10">multis</w> <w n="11">se<choice><orig>d</orig><sic>T</sic></choice></w> <w n="12">lutus</w> <w n="13">intus</w> <w n="14"><sic>e</sic>erat</w></ab>
             </div>
         </body>
     </text>

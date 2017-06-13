@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02400.02400.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Satur</w> <w n="2">noli</w> <w n="3">cunnum</w> <w n="4">lingere</w> <lb n="1"/> <w n="5">extra</w> <w n="6">porta</w> <w n="7">se<d=T></w> <w n="8">intra</w> <w n="9">porta</w> <lb n="2"/> <w n="10">rogat</w> <w n="11">te</w> <w n="12">Arpogra</w> <w n="13">ut</w> <w n="14">sibi</w> <w n="15">lingas</w> <w n="16">mentulam</w> <lb n="3"/> <w n="17">at</w> <w n="18">fellator</w> <w n="19">quid</w></ab>
+                <ab><w n="1">Satur</w> <w n="2">noli</w> <w n="3">cunnum</w> <w n="4">lingere</w> <lb n="1"/> <w n="5">extra</w> <w n="6">porta</w> <w n="7">se<choice><orig>d</orig><sic>T</sic></choice></w> <w n="8">intra</w> <w n="9">porta</w> <lb n="2"/> <w n="10">rogat</w> <w n="11">te</w> <w n="12">Arpogra</w> <w n="13">ut</w> <w n="14">sibi</w> <w n="15">lingas</w> <w n="16">mentulam</w> <lb n="3"/> <w n="17">at</w> <w n="18">fellator</w> <w n="19">quid</w></ab>
             </div>
         </body>
     </text>

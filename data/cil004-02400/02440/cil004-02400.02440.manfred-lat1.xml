@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02400.02440.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>A</abbr><ex>nte</ex></expan></w> <w n="2"><expan><abbr>d</abbr><ex>iem</ex></expan></w> <w n="3">XI</w> <w n="4"><expan><abbr>K</abbr><ex>alendas</ex></expan></w> <w n="5"><expan><abbr>Dec</abbr><ex>embres</ex></expan></w> <w n="6">Geryones</w> <lb n="1"/> <w n="7">trimembres</w> <w n="8">aer<i=V>s</w> <w n="9">senos</w> <lb n="2"/> <w n="10">comperendinarunt</w></ab>
+                <ab><w n="1"><expan><abbr>A</abbr><ex>nte</ex></expan></w> <w n="2"><expan><abbr>d</abbr><ex>iem</ex></expan></w> <w n="3">XI</w> <w n="4"><expan><abbr>K</abbr><ex>alendas</ex></expan></w> <w n="5"><expan><abbr>Dec</abbr><ex>embres</ex></expan></w> <w n="6">Geryones</w> <lb n="1"/> <w n="7">trimembres</w> <w n="8">aer<choice><orig>i</orig><sic>V</sic></choice>s</w> <w n="9">senos</w> <lb n="2"/> <w n="10">comperendinarunt</w></ab>
             </div>
         </body>
     </text>

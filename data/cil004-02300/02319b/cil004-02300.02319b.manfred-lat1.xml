@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02300.02319b.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Vesbinus</w> <w n="2"><expan><abbr>cin</abbr><ex>a</ex><abbr>edus</abbr></expan></w> <w n="3"><Vit=VTI>alio</w> <w n="4">pedicavit</w></ab>
+                <ab><w n="1">Vesbinus</w> <w n="2"><expan><abbr>cin</abbr><ex>a</ex><abbr>edus</abbr></expan></w> <w n="3"><choice><orig>Vit</orig><sic>VTI</sic></choice>alio</w> <w n="4">pedicavit</w></ab>
             </div>
         </body>
     </text>

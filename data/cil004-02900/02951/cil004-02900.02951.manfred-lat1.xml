@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02900.02951.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Capella</abbr><ex>m</ex></expan></w> <w n="2">II<vi=IV><expan><abbr>r</abbr><ex>um</ex></expan></w></ab>
+                <ab><w n="1"><expan><abbr>Capella</abbr><ex>m</ex></expan></w> <w n="2">II<choice><orig>vi</orig><sic>IV</sic></choice><expan><abbr>r</abbr><ex>um</ex></expan></w></ab>
             </div>
         </body>
     </text>

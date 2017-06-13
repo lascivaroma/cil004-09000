@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00800.00814.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Id</abbr><ex>ibus</ex></expan></w> <w n="2">Iul<i=E>as<note>!</note></w> <w n="3">Druso</w> <w n="4">vina</w> <w n="5">Otisd</w> <lb n="1"/> <w n="6">Indoio</w> <w n="7">poto</w> <w n="8"><expan><abbr>ni</abbr><ex>hi</ex><abbr>l</abbr></expan></w> <lb n="2"/> <w n="9">VII</w> <w n="10">Erscito</w> <lb n="3"/> <w n="11">erumb</w> <lb n="4"/> <w n="12">caupo</w> <lb n="5"/> <w n="13">Marn</w></ab>
+                <ab><w n="1"><expan><abbr>Id</abbr><ex>ibus</ex></expan></w> <w n="2">Iul<choice><orig>i</orig><sic>E</sic></choice>as<note>!</note></w> <w n="3">Druso</w> <w n="4">vina</w> <w n="5">Otisd</w> <lb n="1"/> <w n="6">Indoio</w> <w n="7">poto</w> <w n="8"><expan><abbr>ni</abbr><ex>hi</ex><abbr>l</abbr></expan></w> <lb n="2"/> <w n="9">VII</w> <w n="10">Erscito</w> <lb n="3"/> <w n="11">erumb</w> <lb n="4"/> <w n="12">caupo</w> <lb n="5"/> <w n="13">Marn</w></ab>
             </div>
         </body>
     </text>

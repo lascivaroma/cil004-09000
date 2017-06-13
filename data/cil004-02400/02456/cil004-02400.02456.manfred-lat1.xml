@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02400.02456.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">G(aius!)</w> <w n="2">Gaudanus</w> <w n="3"><supplied reason="lost">3</supplied>celli</w> <w n="4">Aenuiuu</w></ab>
+                <ab><w n="1"><expan cert="low"><abbr>G</abbr><ex>aius</ex></expan></w> <w n="2">Gaudanus</w> <w n="3"><supplied reason="lost">3</supplied>celli</w> <w n="4">Aenuiuu</w></ab>
             </div>
         </body>
     </text>

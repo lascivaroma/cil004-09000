@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01900.01939.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Romai</w> <w n="2">fue<sic>e</sic>re</w> <w n="3">quondam</w> <lb n="1"/><lb n="2"/> <w n="4">Vibei</w> <lb n="3"/><lb n="4"/> <w n="5">opul<sic>l</sic>entiss<i=U>mi</w> <lb n="5"/> <w n="6">non</w> <w n="7">ideo</w> <w n="8">tenuerunt</w> <w n="9">in</w> <w n="10">manu</w> <w n="11">sceptrum</w> <w n="12">pro</w> <w n="13">mutunio</w> <lb n="6"/> <w n="14">itidem</w> <w n="15">quod</w> <w n="16">tu</w> <w n="17">factitas</w> <w n="18">cottidie</w> <w n="19">in</w> <w n="20">manu</w> <w n="21">penem</w> <w n="22"><expan><abbr>tene</abbr><ex>n</ex><abbr>s</abbr></expan></w></ab>
+                <ab><w n="1">Romai</w> <w n="2">fue<sic>e</sic>re</w> <w n="3">quondam</w> <lb n="1"/><lb n="2"/> <w n="4">Vibei</w> <lb n="3"/><lb n="4"/> <w n="5">opul<sic>l</sic>entiss<choice><orig>i</orig><sic>U</sic></choice>mi</w> <lb n="5"/> <w n="6">non</w> <w n="7">ideo</w> <w n="8">tenuerunt</w> <w n="9">in</w> <w n="10">manu</w> <w n="11">sceptrum</w> <w n="12">pro</w> <w n="13">mutunio</w> <lb n="6"/> <w n="14">itidem</w> <w n="15">quod</w> <w n="16">tu</w> <w n="17">factitas</w> <w n="18">cottidie</w> <w n="19">in</w> <w n="20">manu</w> <w n="21">penem</w> <w n="22"><expan><abbr>tene</abbr><ex>n</ex><abbr>s</abbr></expan></w></ab>
             </div>
         </body>
     </text>

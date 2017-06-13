@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02000.02083.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Myrtile</w> <w n="2">hab<e=I>as</w> <w n="3">propitium</w> <w n="4"><expan><abbr>Caesare</abbr><ex>m</ex></expan></w></ab>
+                <ab><w n="1">Myrtile</w> <w n="2">hab<choice><orig>e</orig><sic>I</sic></choice>as</w> <w n="3">propitium</w> <w n="4"><expan><abbr>Caesare</abbr><ex>m</ex></expan></w></ab>
             </div>
         </body>
     </text>

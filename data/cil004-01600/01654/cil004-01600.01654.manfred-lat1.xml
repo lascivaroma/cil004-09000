@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01600.01654.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Quidam</w> <w n="2"><c=Q>u<sic>o</sic>m</w> <w n="3">legeret</w></ab>
+                <ab><w n="1">Quidam</w> <w n="2"><choice><orig>c</orig><sic>Q</sic></choice>u<sic>o</sic>m</w> <w n="3">legeret</w></ab>
             </div>
         </body>
     </text>

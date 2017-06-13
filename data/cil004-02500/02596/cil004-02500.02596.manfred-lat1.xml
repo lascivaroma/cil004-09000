@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02500.02596.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">L<y=I><supplied reason="lost"><expan><abbr>p</abbr><ex>h</ex><abbr>a</abbr></expan></supplied></w> <w n="2"><expan><abbr>ve</abbr><ex>tus</ex></expan></w> <lb n="1"/> <w n="3">Penuaer</w> <lb n="2"/> <w n="4">exscell(ens!)</w> <lb n="3"/> <w n="5">S</w> <w n="6">Vm</w> <w n="7">V</w> <w n="8">R</w> <lb n="4"/> <w n="9">A</w> <w n="10">A</w> <w n="11">A</w> <w n="12">A</w> <lb n="5"/> <w n="13">C</w> <w n="14">X</w> <w n="15">X</w> <w n="16">C</w> <lb n="6"/> <w n="17"><gap reason="lost" extent="unknown" unit="line" /></w></ab>
+                <ab><w n="1">L<choice><orig>y</orig><sic>I</sic></choice><supplied reason="lost"><expan><abbr>p</abbr><ex>h</ex><abbr>a</abbr></expan></supplied></w> <w n="2"><expan><abbr>ve</abbr><ex>tus</ex></expan></w> <lb n="1"/> <w n="3">Penuaer</w> <lb n="2"/> <w n="4"><expan cert="low"><abbr>exscell</abbr><ex>ens</ex></expan></w> <lb n="3"/> <w n="5">S</w> <w n="6">Vm</w> <w n="7">V</w> <w n="8">R</w> <lb n="4"/> <w n="9">A</w> <w n="10">A</w> <w n="11">A</w> <w n="12">A</w> <lb n="5"/> <w n="13">C</w> <w n="14">X</w> <w n="15">X</w> <w n="16">C</w> <lb n="6"/> <w n="17"><gap reason="lost" extent="unknown" unit="line" /></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01400.01486.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Pacatus</w> <w n="2">a<c=T><expan><abbr>ces</abbr><ex>s</ex><abbr>i</abbr></expan><t=D></w> <w n="3">Caesiae</w> <w n="4">Secundae</w> <lb n="1"/> <w n="5">Pa<c=G>atus</w> <w n="6">hic</w> <w n="7">cum</w> <w n="8">Secunda</w></ab>
+                <ab><w n="1">Pacatus</w> <w n="2">a<choice><orig>c</orig><sic>T</sic></choice><expan><abbr>ces</abbr><ex>s</ex><abbr>i</abbr></expan><choice><orig>t</orig><sic>D</sic></choice></w> <w n="3">Caesiae</w> <w n="4">Secundae</w> <lb n="1"/> <w n="5">Pa<choice><orig>c</orig><sic>G</sic></choice>atus</w> <w n="6">hic</w> <w n="7">cum</w> <w n="8">Secunda</w></ab>
             </div>
         </body>
     </text>

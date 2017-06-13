@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02100.02152.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Coloniae</w> <w n="2"><expan><abbr>Clau</abbr><ex>diae</ex></expan></w> <lb n="1"/> <w n="3"><expan><abbr>Nerone</abbr><ex>n</ex><abbr>si</abbr></expan></w> <w n="4">Put<e=I><expan><abbr>olan</abbr><ex>a</ex><abbr>e</abbr></expan></w> <lb n="2"/> <w n="5">feliciter</w> <lb n="3"/> <w n="6">scripsit</w> <w n="7"><expan><abbr>C</abbr><ex>aius</ex></expan></w> <w n="8">Iulius</w> <w n="9">Speratus</w> <lb n="4"/> <w n="10">Sperate</w> <w n="11"><expan><abbr>va</abbr><ex>le</ex></expan></w></ab>
+                <ab><w n="1">Coloniae</w> <w n="2"><expan><abbr>Clau</abbr><ex>diae</ex></expan></w> <lb n="1"/> <w n="3"><expan><abbr>Nerone</abbr><ex>n</ex><abbr>si</abbr></expan></w> <w n="4">Put<choice><orig>e</orig><sic>I</sic></choice><expan><abbr>olan</abbr><ex>a</ex><abbr>e</abbr></expan></w> <lb n="2"/> <w n="5">feliciter</w> <lb n="3"/> <w n="6">scripsit</w> <w n="7"><expan><abbr>C</abbr><ex>aius</ex></expan></w> <w n="8">Iulius</w> <w n="9">Speratus</w> <lb n="4"/> <w n="10">Sperate</w> <w n="11"><expan><abbr>va</abbr><ex>le</ex></expan></w></ab>
             </div>
         </body>
     </text>

@@ -1,27 +1,27 @@
-<work groupUrn="urn:cts:pompei:cil004-02200" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" urn="urn:cts:pompei:cil004-02200.02236" xml:lang="None">
+<work groupUrn="urn:cts:pompei:cil004-02200" xmlns:dct="http://purl.org/dc/terms/" xml:lang="None" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:saws="http://purl.org/saws/ontology#" urn="urn:cts:pompei:cil004-02200.02236" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cpt="http://purl.org/capitains/ns/1.0#">
 <title xml:lang="eng">02236</title>
 <cpt:structured-metadata>
-<dc:identifier >EDCS-28900389</dc:identifier>
-<saws:isLocatedAt >Pompei</saws:isLocatedAt>
-<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
-<saws:identifier >www.trismegistos.org/text/525075</saws:identifier>
 <skos:prefLabel xml:lang="eng">02236</skos:prefLabel>
+<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<dc:identifier >EDCS-28900389</dc:identifier>
+<rdfs:label xml:lang="eng">02236</rdfs:label>
+<saws:identifier >www.trismegistos.org/text/525075</saws:identifier>
 <saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
 <dc:identifier > Lucrum p 146</dc:identifier>
-<rdfs:label xml:lang="eng">02236</rdfs:label>
+<saws:isLocatedAt >Pompei</saws:isLocatedAt>
 </cpt:structured-metadata>
-<edition workUrn="urn:cts:pompei:cil004-02200.02236" urn="urn:cts:pompei:cil004-02200.02236.manfred-lat1" xml:lang="lat">
+<edition urn="urn:cts:pompei:cil004-02200.02236.manfred-lat1" xml:lang="lat" workUrn="urn:cts:pompei:cil004-02200.02236">
 <label xml:lang="eng">02236</label>
 <description xml:lang="None">Automatically converted from Manfred Klaus database</description>
 <cpt:structured-metadata>
 <dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
-<dct:contributor >Thibault Clérices</dct:contributor>
+<dc:format >text/xml</dc:format>
+<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
+<dct:contributor >Thibault Clérice</dct:contributor>
+<dc:language >lat</dc:language>
 <dct:contributor >Manfred Klaus</dct:contributor>
 <rdfs:label xml:lang="eng">02236</rdfs:label>
-<dc:format >text/xml</dc:format>
-<dc:language >lat</dc:language>
 <skos:prefLabel xml:lang="eng">02236</skos:prefLabel>
-<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
 </cpt:structured-metadata>
 </edition>
 </work>

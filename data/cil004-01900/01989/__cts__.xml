@@ -1,30 +1,30 @@
-<work groupUrn="urn:cts:pompei:cil004-01900" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" urn="urn:cts:pompei:cil004-01900.01989" xml:lang="None">
+<work groupUrn="urn:cts:pompei:cil004-01900" xmlns:dct="http://purl.org/dc/terms/" xml:lang="None" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:saws="http://purl.org/saws/ontology#" urn="urn:cts:pompei:cil004-01900.01989" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cpt="http://purl.org/capitains/ns/1.0#">
 <title xml:lang="eng">01989</title>
 <cpt:structured-metadata>
-<skos:prefLabel xml:lang="eng">01989</skos:prefLabel>
-<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
-<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
 <saws:identifier >www.trismegistos.org/text/524796</saws:identifier>
-<dc:identifier > GladPar 00046 </dc:identifier>
-<dc:identifier > D 05147 </dc:identifier>
-<dc:identifier > GraffPomp 00778</dc:identifier>
-<dct:isFormatOf >http://db.edcs.eu/epigr/bilder.php?bild=$CIL_04_01989.jpg</dct:isFormatOf>
-<saws:isLocatedAt >Pompei</saws:isLocatedAt>
 <rdfs:label xml:lang="eng">01989</rdfs:label>
 <dc:identifier >EDCS-16300499</dc:identifier>
+<skos:prefLabel xml:lang="eng">01989</skos:prefLabel>
+<dct:isFormatOf >http://db.edcs.eu/epigr/bilder.php?bild=$CIL_04_01989.jpg</dct:isFormatOf>
+<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
+<dc:identifier > GraffPomp 00778</dc:identifier>
+<saws:isLocatedAt >Pompei</saws:isLocatedAt>
+<dc:identifier > GladPar 00046 </dc:identifier>
+<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<dc:identifier > D 05147 </dc:identifier>
 </cpt:structured-metadata>
-<edition workUrn="urn:cts:pompei:cil004-01900.01989" urn="urn:cts:pompei:cil004-01900.01989.manfred-lat1" xml:lang="lat">
+<edition urn="urn:cts:pompei:cil004-01900.01989.manfred-lat1" xml:lang="lat" workUrn="urn:cts:pompei:cil004-01900.01989">
 <label xml:lang="eng">01989</label>
 <description xml:lang="None">Automatically converted from Manfred Klaus database</description>
 <cpt:structured-metadata>
-<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
-<dc:format >text/xml</dc:format>
-<dct:contributor >Thibault Clérices</dct:contributor>
-<rdfs:label xml:lang="eng">01989</rdfs:label>
+<dct:contributor >Thibault Clérice</dct:contributor>
+<skos:prefLabel xml:lang="eng">01989</skos:prefLabel>
 <dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
 <dc:language >lat</dc:language>
+<dc:format >text/xml</dc:format>
 <dct:contributor >Manfred Klaus</dct:contributor>
-<skos:prefLabel xml:lang="eng">01989</skos:prefLabel>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<rdfs:label xml:lang="eng">01989</rdfs:label>
 </cpt:structured-metadata>
 </edition>
 </work>

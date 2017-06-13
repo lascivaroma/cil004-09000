@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01500.01513.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Similis</w> <w n="2"><expan><abbr>parat</abbr><ex cert="low">i</ex></expan></w> <lb n="1"/> <w n="3">Hercul<e=I>s</w> <w n="4"><expan><abbr>Nero</abbr><ex>nianus</ex></expan></w></ab>
+                <ab><w n="1">Similis</w> <w n="2"><expan><abbr>parat</abbr><ex cert="low">i</ex></expan></w> <lb n="1"/> <w n="3">Hercul<choice><orig>e</orig><sic>I</sic></choice>s</w> <w n="4"><expan><abbr>Nero</abbr><ex>nianus</ex></expan></w></ab>
             </div>
         </body>
     </text>

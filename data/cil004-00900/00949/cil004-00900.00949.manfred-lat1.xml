@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00900.00949.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><L=I><expan><abbr><am><g type="symbol"/></am></abbr><ex>ucium</ex></expan></w> <w n="2"><expan><abbr>A</abbr><ex>lbuccium</ex></expan></w> <w n="3"><expan><abbr>C</abbr><ex>elsum</ex></expan></w> <w n="4"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="1"/> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="2"/> <w n="8">Fabium</w></ab>
+                <ab><w n="1"><choice><orig>L</orig><sic>I</sic></choice><expan><abbr><am><g type="symbol"/></am></abbr><ex>ucium</ex></expan></w> <w n="2"><expan><abbr>A</abbr><ex>lbuccium</ex></expan></w> <w n="3"><expan><abbr>C</abbr><ex>elsum</ex></expan></w> <w n="4"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <lb n="1"/> <w n="5"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="2"/> <w n="8">Fabium</w></ab>
             </div>
         </body>
     </text>

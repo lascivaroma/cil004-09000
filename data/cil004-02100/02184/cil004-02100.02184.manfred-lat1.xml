@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02100.02184.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Phoebus</w> <w n="2">unguentarius</w> <lb n="1"/> <w n="3">opt<i=U>me</w> <w n="4">futuit</w></ab>
+                <ab><w n="1">Phoebus</w> <w n="2">unguentarius</w> <lb n="1"/> <w n="3">opt<choice><orig>i</orig><sic>U</sic></choice>me</w> <w n="4">futuit</w></ab>
             </div>
         </body>
     </text>
