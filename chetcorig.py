@@ -83,5 +83,5 @@ if __name__ == "__main__":
     with open("replacements.txt") as f:
         replacements = f.read()
     obj = Epigraph2Markup(replacements)
-    x = obj.convert("Sittium a[e]d(ilem) [o(ro) v(os)] f(aciatis)", debug=True)
+    x = obj.convert("Rufum d(ignum?) [3] / L(ucium) Nu[mis]iu[m / De[3]", debug=True)
     print(x)
