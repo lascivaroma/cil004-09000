@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-01100.01192.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" /></w> <w n="2">familia</w> <w n="3">gladiatoria</w> <w n="4"><supplied reason="lost"><expan><abbr>pugn</abbr><ex cert="low">abit</ex></expan></w> <w n="5">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">3</supplied></w> <w n="7">venatio</w> <w n="8">et</w> <w n="9">vela</w> <w n="10"><supplied reason="lost">erunt</supplied></w></ab>
+                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" /></w> <w n="2">familia</w> <w n="3">gladiatoria</w> <w n="4"><supplied reason="lost"><expan><abbr>pugn</abbr><ex cert="low">abit</ex></expan></supplied></w> <w n="5"><supplied reason="lost">3</supplied></w> <lb n="1"/> <w n="6"><supplied reason="lost">3</supplied></w> <w n="7">venatio</w> <w n="8">et</w> <w n="9">vela</w> <w n="10"><supplied reason="lost">erunt</supplied></w></ab>
             </div>
         </body>
     </text>
