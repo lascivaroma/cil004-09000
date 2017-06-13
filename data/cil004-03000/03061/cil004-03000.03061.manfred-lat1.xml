@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03000.03061.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Virum</w> <w n="2">vendere</w> <lb n="1"/> <w n="3">nolo</w> <w n="4">me<choice><orig>u</orig><sic>O</sic></choice>m</w> <lb n="2"/> <w n="5">M<supplied reason="lost">3</supplied></w> <w n="6">quanti</w> <w n="7"><expan><abbr>quant</abbr><ex>o</ex><abbr>q</abbr><ex>u</ex><abbr>e</abbr></expan></w> <lb n="3"/> <w n="8">Virveneniorum</w></ab>
+                <ab><w n="1">Virum</w> <w n="2">vendere</w> <lb n="1"/> <w n="3">nolo</w> <w n="4">me<choice><corr>u</corr><sic>O</sic></choice>m</w> <lb n="2"/> <w n="5">M<supplied reason="lost">3</supplied></w> <w n="6">quanti</w> <w n="7"><expan><abbr>quant</abbr><ex>o</ex><abbr>q</abbr><ex>u</ex><abbr>e</abbr></expan></w> <lb n="3"/> <w n="8">Virveneniorum</w></ab>
             </div>
         </body>
     </text>

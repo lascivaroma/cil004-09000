@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03500.03565.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Casellium</w> <lb n="1"/> <w n="2"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="3"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="5"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="2"/><lb n="3"/> <w n="6">Marcellum</w> <lb n="4"/> <w n="7"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="8"><expan><abbr>o</abbr><ex>ro</ex></expan><supplied reason="lost"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="9"><expan><abbr>f</abbr><ex>aciatis</ex></expan></supplied></w></ab>
+                <ab><w n="1">Casellium</w> <lb n="1"/> <w n="2"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="3"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="5"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="2"/><lb n="3"/> <w n="6">Marcellum</w> <lb n="4"/> <w n="7"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="8"><expan><abbr>o</abbr><ex>ro</ex></expan><supplied reason="lost"><expan><abbr>v</abbr><ex>os</ex></expan></supplied></w> <w n="9"><supplied reason="lost"><expan><abbr>f</abbr><ex>aciatis</ex></expan></supplied></w></ab>
             </div>
         </body>
     </text>

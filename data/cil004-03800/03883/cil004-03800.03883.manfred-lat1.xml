@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03800.03883.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Dedication<supplied reason="lost">e</w> <w n="2">operis</w> <w n="3">tabularum</w> <w n="4"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="5">Allei</w> <w n="6">Nigidi</w> <w n="7">Mai</w> <w n="8">Pompeis</w> <w n="9">Idibus</w> <w n="10">Iuniis</supplied></w> <lb n="1"/> <w n="11">pompa</w> <w n="12">venatio</w> <w n="13"><supplied reason="lost">athletae</w> <w n="14">spars</supplied>i<supplied reason="lost">o</supplied>nes</w> <w n="15">vela</w> <w n="16">erunt</w> <lb n="2"/> <w n="17"><expan><abbr>Nigr</abbr><ex>a</ex></expan></w> <w n="18"><expan><abbr>va</abbr><ex cert="low">le</ex></expan></w></ab>
+                <ab><w n="1">Dedication<supplied reason="lost">e</w> <w n="2">operis</w> <w n="3">tabularum</w> <w n="4"><expan><abbr>Cn</abbr><ex>aei</ex></expan></w> <w n="5">Allei</w> <w n="6">Nigidi</w> <w n="7">Mai</w> <w n="8">Pompeis</w> <w n="9">Idibus</w> <w n="10">Iuniis</supplied></w> <lb n="1"/> <w n="11">pompa</w> <w n="12">venatio</w> <w n="13"><supplied reason="lost">athletae</supplied></w> <w n="14"><supplied reason="lost">spars</supplied>i<supplied reason="lost">o</supplied>nes</w> <w n="15">vela</w> <w n="16">erunt</w> <lb n="2"/> <w n="17"><expan><abbr>Nigr</abbr><ex>a</ex></expan></w> <w n="18"><expan><abbr>va</abbr><ex cert="low">le</ex></expan></w></ab>
             </div>
         </body>
     </text>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03800.03853.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost"><expan><abbr>M</abbr><ex>arcum</ex></expan></w> <w n="2">Licini</supplied>um</w> <w n="3">Faust<gap reason="lost" extent="unknown" unit="line" />inum</w></ab>
+                <ab><w n="1"><supplied reason="lost"><expan><abbr>M</abbr><ex>arcum</ex></expan></supplied></w> <w n="2"><supplied reason="lost">Licini</supplied>um</w> <w n="3">Faust<gap reason="lost" extent="unknown" unit="line" />inum</w></ab>
             </div>
         </body>
     </text>

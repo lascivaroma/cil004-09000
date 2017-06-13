@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03100.03196a.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" />ALAPA</w> <lb n="1"/> <w n="2">scri<choice><orig>p</orig><sic>B</sic></choice><gap reason="lost" extent="unknown" unit="line" />sit</w></ab>
+                <ab><w n="1"><gap reason="lost" extent="unknown" unit="line" />ALAPA</w> <lb n="1"/> <w n="2">scri<choice><corr>p</corr><sic>B</sic></choice><gap reason="lost" extent="unknown" unit="line" />sit</w></ab>
             </div>
         </body>
     </text>

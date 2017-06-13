@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03900.03948.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Talia</w> <w n="2">te</w> <w n="3">fallant</w> <lb n="1"/> <w n="4">utinam</w> <w n="5"><expan><abbr>me</abbr><ex>n</ex><abbr>dacia</abbr></expan></w> <w n="6">copo</w> <lb n="2"/> <w n="7">tu</w> <w n="8"><expan><abbr>ve</abbr><ex>n</ex><abbr>des</abbr></expan></w> <w n="9">a<q=C>uam</w> <w n="10">et</w> <lb n="3"/> <w n="11">bibes</w> <w n="12">ipse</w> <w n="13">merum</w></ab>
+                <ab><w n="1">Talia</w> <w n="2">te</w> <w n="3">fallant</w> <lb n="1"/> <w n="4">utinam</w> <w n="5"><expan><abbr>me</abbr><ex>n</ex><abbr>dacia</abbr></expan></w> <w n="6">copo</w> <lb n="2"/> <w n="7">tu</w> <w n="8"><expan><abbr>ve</abbr><ex>n</ex><abbr>des</abbr></expan></w> <w n="9">a<choice><corr>q</corr><sic>C</sic></choice>uam</w> <w n="10">et</w> <lb n="3"/> <w n="11">bibes</w> <w n="12">ipse</w> <w n="13">merum</w></ab>
             </div>
         </body>
     </text>

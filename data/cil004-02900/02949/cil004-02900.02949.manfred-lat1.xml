@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02900.02949.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Capellam</w> <lb n="1"/><lb n="2"/> <w n="2"><expan><abbr>IIvir</abbr><ex>um</ex></expan></w> <w n="3"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="5"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="3"/> <w n="6">Phoebu<supplied reason="lost">s</w> <w n="7">f</supplied>acit</w></ab>
+                <ab><w n="1">Capellam</w> <lb n="1"/><lb n="2"/> <w n="2"><expan><abbr>IIvir</abbr><ex>um</ex></expan></w> <w n="3"><expan><abbr>o</abbr><ex>ro</ex></expan></w> <w n="4"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="5"><expan><abbr>f</abbr><ex>aciatis</ex></expan></w> <lb n="3"/> <w n="6">Phoebu<supplied reason="lost">s</supplied></w> <w n="7"><supplied reason="lost">f</supplied>acit</w></ab>
             </div>
         </body>
     </text>

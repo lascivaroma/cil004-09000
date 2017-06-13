@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02600.02658.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">P</w> <w n="2">LIII</w> <w n="3">F</w> <w n="4">XII</w> <lb n="1"/> <w n="5"><expan><abbr>R</abbr><ex extent="unknown"></ex></expan></w> <w n="6"><expan><abbr>P</abbr><ex extent="unknown"></ex></expan></w> <w n="7"><expan><abbr>L</abbr><ex extent="unknown"></ex></expan></w> <w n="8"><expan><abbr>F</abbr><ex extent="unknown"></ex></expan></w> <lb n="2"/> <w n="9"><supplied reason="lost">3</w> <w n="10">Pop</supplied>idio(?)</w> <w n="11">Ampliato(?)</w></ab>
+                <ab><w n="1">P</w> <w n="2">LIII</w> <w n="3">F</w> <w n="4">XII</w> <lb n="1"/> <w n="5"><expan><abbr>R</abbr><ex extent="unknown"></ex></expan></w> <w n="6"><expan><abbr>P</abbr><ex extent="unknown"></ex></expan></w> <w n="7"><expan><abbr>L</abbr><ex extent="unknown"></ex></expan></w> <w n="8"><expan><abbr>F</abbr><ex extent="unknown"></ex></expan></w> <lb n="2"/> <w n="9"><supplied reason="lost">3</supplied></w> <w n="10"><supplied reason="lost">Pop</supplied>idio(?)</w> <w n="11">Ampliato(?)</w></ab>
             </div>
         </body>
     </text>

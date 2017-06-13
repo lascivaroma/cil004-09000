@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02500.02585.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Lymp</abbr><ex>ha</ex></expan></w> <w n="2"><expan><abbr>vet</abbr><ex>us</ex></expan></w> <lb n="1"/> <w n="3"><expan><abbr>a</abbr><ex>nnorum</ex></expan></w> <w n="4">IIII</w> <w n="5"><expan><abbr>a</abbr><ex>nnorum</ex></expan></w> <lb n="2"/> <w n="6">XIIII</w> <w n="7"><expan><abbr>s</abbr><ex>emis</ex></expan></w> <lb n="3"/> <w n="8"><expan><abbr>M</abbr><ex>arci</ex></expan></w> <w n="9">Valeri</w> <w n="10">Abinnerici</w> <lb n="4"/><lb n="5"/> <w n="11"><expan><abbr>Corneli</abbr><ex>a</ex></expan><choice><orig>e</orig><sic>I</sic></choice>s<note>!</note></w></ab>
+                <ab><w n="1"><expan><abbr>Lymp</abbr><ex>ha</ex></expan></w> <w n="2"><expan><abbr>vet</abbr><ex>us</ex></expan></w> <lb n="1"/> <w n="3"><expan><abbr>a</abbr><ex>nnorum</ex></expan></w> <w n="4">IIII</w> <w n="5"><expan><abbr>a</abbr><ex>nnorum</ex></expan></w> <lb n="2"/> <w n="6">XIIII</w> <w n="7"><expan><abbr>s</abbr><ex>emis</ex></expan></w> <lb n="3"/> <w n="8"><expan><abbr>M</abbr><ex>arci</ex></expan></w> <w n="9">Valeri</w> <w n="10">Abinnerici</w> <lb n="4"/><lb n="5"/> <w n="11"><expan><abbr>Corneli</abbr><ex>a</ex></expan><choice><corr>e</corr><sic>I</sic></choice>s<note>!</note></w></ab>
             </div>
         </body>
     </text>

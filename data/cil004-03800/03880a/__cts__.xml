@@ -1,25 +1,25 @@
-<work groupUrn="urn:cts:pompei:cil004-03800" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:dct="http://purl.org/dc/terms/" urn="urn:cts:pompei:cil004-03800.03880a" xml:lang="None">
+<work groupUrn="urn:cts:pompei:cil004-03800" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:saws="http://purl.org/saws/ontology#" urn="urn:cts:pompei:cil004-03800.03880a" xml:lang="None" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <title xml:lang="eng">03880a</title>
 <cpt:structured-metadata>
-<skos:prefLabel xml:lang="eng">03880a</skos:prefLabel>
-<saws:identifier >www.trismegistos.org/text/527027</saws:identifier>
-<saws:isLocatedAt >http://www.trismegistos.org/place/3365</saws:isLocatedAt>
-<dc:identifier >EDCS-25500306</dc:identifier>
-<rdfs:label xml:lang="eng">03880a</rdfs:label>
-<saws:isLocatedAt >long:14.3481628;lat:40.8079195</saws:isLocatedAt>
 <saws:isLocatedAt >Ercolano / Resina / Herculaneum</saws:isLocatedAt>
+<saws:isLocatedAt >long:14.3481628;lat:40.8079195</saws:isLocatedAt>
+<skos:prefLabel xml:lang="eng">03880a</skos:prefLabel>
+<rdfs:label xml:lang="eng">03880a</rdfs:label>
+<saws:identifier >www.trismegistos.org/text/527027</saws:identifier>
+<dc:identifier >EDCS-25500306</dc:identifier>
+<saws:isLocatedAt >http://www.trismegistos.org/place/3365</saws:isLocatedAt>
 </cpt:structured-metadata>
-<edition workUrn="urn:cts:pompei:cil004-03800.03880a" urn="urn:cts:pompei:cil004-03800.03880a.manfred-lat1" xml:lang="lat">
+<edition urn="urn:cts:pompei:cil004-03800.03880a.manfred-lat1" xml:lang="lat" workUrn="urn:cts:pompei:cil004-03800.03880a">
 <label xml:lang="eng">03880a</label>
 <description xml:lang="None">Automatically converted from Manfred Klaus database</description>
 <cpt:structured-metadata>
 <dc:language >lat</dc:language>
 <dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
-<dct:contributor >Thibault Clérices</dct:contributor>
-<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<dc:format >text/xml</dc:format>
 <dct:contributor >Manfred Klaus</dct:contributor>
 <rdfs:label xml:lang="eng">03880a</rdfs:label>
-<dc:format >text/xml</dc:format>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<dct:contributor >Thibault Clérice</dct:contributor>
 <skos:prefLabel xml:lang="eng">03880a</skos:prefLabel>
 </cpt:structured-metadata>
 </edition>

@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03100.03146.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">Secundus</w> <lb n="1"/> <w n="2">hic</w> <w n="3"><expan><ex>c</ex><abbr>acat</abbr></expan></w> <lb n="2"/> <w n="4">hi<supplied reason="lost">c</w> <w n="5">cac</supplied>at</w> <lb n="3"/> <w n="6">hic</w> <w n="7">cacat</w></ab>
+                <ab><w n="1">Secundus</w> <lb n="1"/> <w n="2">hic</w> <w n="3"><expan><ex>c</ex><abbr>acat</abbr></expan></w> <lb n="2"/> <w n="4">hi<supplied reason="lost">c</supplied></w> <w n="5"><supplied reason="lost">cac</supplied>at</w> <lb n="3"/> <w n="6">hic</w> <w n="7">cacat</w></ab>
             </div>
         </body>
     </text>

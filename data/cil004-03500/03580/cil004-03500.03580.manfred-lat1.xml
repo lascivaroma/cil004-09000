@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03500.03580.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">N<y=V>()<expan><abbr>p</abbr><ex>h</ex><abbr>e</abbr></expan></w> <lb n="1"/> <w n="2">IIO</w></ab>
+                <ab><w n="1">N<choice><corr>y</corr><sic>V</sic></choice>()<expan><abbr>p</abbr><ex>h</ex><abbr>e</abbr></expan></w> <lb n="1"/> <w n="2">IIO</w></ab>
             </div>
         </body>
     </text>

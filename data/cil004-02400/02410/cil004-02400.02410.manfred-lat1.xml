@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02400.02410.manfred-lat1" xml:lang="lat">
-                <ab><w n="1">I<choice><orig>n</orig><sic>M</sic></choice></w> <w n="2">balneum</w></ab>
+                <ab><w n="1">I<choice><corr>n</corr><sic>M</sic></choice></w> <w n="2">balneum</w></ab>
             </div>
         </body>
     </text>

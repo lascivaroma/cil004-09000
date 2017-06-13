@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-02500.02561.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><expan><abbr>Suff</abbr><ex cert="low">usum</ex></expan></w> <lb n="1"/> <w n="2">Cre<supplied reason="lost">3</supplied>bi</w> <lb n="2"/> <w n="3"><supplied reason="lost">dif</supplied><expan><abbr>f</abbr><ex>usum</ex></expan></w> <w n="4"><expan><abbr>pr</abbr><ex>idie</ex></expan></w> <w n="5">Idus</w> <lb n="3"/> <w n="6"><expan><abbr>Iun</abbr><ex>ias</ex></expan></w> <lb n="4"/> <w n="7">Ve<supplied reason="lost">r</supplied>ginio</w> <w n="8">et</w> <w n="9">Re<supplied reason="lost">3</w> <w n="10"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></w></ab>
+                <ab><w n="1"><expan><abbr>Suff</abbr><ex cert="low">usum</ex></expan></w> <lb n="1"/> <w n="2">Cre<supplied reason="lost">3</supplied>bi</w> <lb n="2"/> <w n="3"><supplied reason="lost">dif</supplied><expan><abbr>f</abbr><ex>usum</ex></expan></w> <w n="4"><expan><abbr>pr</abbr><ex>idie</ex></expan></w> <w n="5">Idus</w> <lb n="3"/> <w n="6"><expan><abbr>Iun</abbr><ex>ias</ex></expan></w> <lb n="4"/> <w n="7">Ve<supplied reason="lost">r</supplied>ginio</w> <w n="8">et</w> <w n="9">Re<supplied reason="lost">3</supplied></w> <w n="10"><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied></w></ab>
             </div>
         </body>
     </text>

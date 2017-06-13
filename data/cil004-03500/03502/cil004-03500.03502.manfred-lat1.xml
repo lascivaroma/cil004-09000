@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-03500.03502.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">H</supplied>ol<supplied reason="lost">c</supplied>o<n=R>ium</w> <w n="2">Priscum</w> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="4">Clodi</w> <w n="5"><expan><abbr>fac</abbr><ex>iat</ex></expan></w> <lb n="1"/><lb n="2"/> <w n="6">sei</w> <w n="7">copo</w> <w n="8">probe</w> <w n="9">fecisti</w> <lb n="3"/> <w n="10">quod</w> <w n="11">sella</w> <w n="12">commodasti</w></ab>
+                <ab><w n="1"><supplied reason="lost">H</supplied>ol<supplied reason="lost">c</supplied>o<choice><corr>n</corr><sic>R</sic></choice>ium</w> <w n="2">Priscum</w> <w n="3"><expan><abbr>aed</abbr><ex>ilem</ex></expan></w> <w n="4">Clodi</w> <w n="5"><expan><abbr>fac</abbr><ex>iat</ex></expan></w> <lb n="1"/><lb n="2"/> <w n="6">sei</w> <w n="7">copo</w> <w n="8">probe</w> <w n="9">fecisti</w> <lb n="3"/> <w n="10">quod</w> <w n="11">sella</w> <w n="12">commodasti</w></ab>
             </div>
         </body>
     </text>
