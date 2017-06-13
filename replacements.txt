@@ -22,6 +22,7 @@
 ([^<])<((?:\w|\s)+)>([^>])                  =   $1<supplied reason="omitted">$2</supplied>$3
 <((?:\w|\s)+)>$                  			=   <supplied reason="omitted">$1</supplied>
 ^<((?:\w|\s)+)>                   			=   <supplied reason="omitted">$1</supplied>
+<(\w+)=(\w+)>                               =   <choice><orig>$1</orig><sic>$2</sic></choice>
 
 
 # Double Character Enclosures
@@ -41,6 +42,7 @@
 
 # Corner Characters (Unicode Left 231C Right 231D)
 ⌜((?:\w|\s)+)⌝								=	<choice><sic>$1</sic><corr>$1</corr></choice>
+
 
 # Single Quotes
 '((?:\w|\s)+)'								=	<add>$1</add>
