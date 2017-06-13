@@ -10,9 +10,9 @@
 # occurences of the symbol in the second capturing group inside the first capturing group.  In
 # regular expressions, capturing groups are delimited by parentheses.
 
-\[(\w) (\d)\]                               =   [$1] [$2]
-\[(\d) (\w)\]                               =   [$1] [$2]
-\[(\d) (\w) (\d)\]                          =   [$1] [$2] [$3]
+
+\[([\w\(\)]+) ([\w\(\)]+)\]                               =   [$1] [$2]
+\[([\w\(\)]+) ([\w\(\)]+) ([\w\(\)]+)\]                   =   [$1] [$2] [$3]
 ([^\s/]+)                                   =   <w n="%mkIDW">$1</w>
 \/(?!\w)									=	<lb n="%mkID1"/>
 
@@ -22,7 +22,9 @@
 ([^<])<((?:\w|\s)+)>([^>])                  =   $1<supplied reason="omitted">$2</supplied>$3
 <((?:\w|\s)+)>$                  			=   <supplied reason="omitted">$1</supplied>
 ^<((?:\w|\s)+)>                   			=   <supplied reason="omitted">$1</supplied>
-<(\w+)=(\w+)>                               =   <choice><orig>$1</orig><sic>$2</sic></choice>
+
+# <K=I>alendis                              =   <choice><corr>K</corr><sic>L</sic></choice>alendis
+<(\w+)=(\w+)>                               =   <choice><corr>$1</corr><sic>$2</sic></choice>
 
 
 # Double Character Enclosures

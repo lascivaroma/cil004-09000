@@ -59,7 +59,7 @@ class Epigraph2Markup(object):
             return output
         return temp
 
-    def convert(self, text):
+    def convert(self, text, debug=False):
         result = "" + text
         for pattern, replacement in self.replacements:  # For each replacement
 
@@ -74,7 +74,8 @@ class Epigraph2Markup(object):
 
             lbs = []
             make_ids = [unit for match in MAKE_ID.findall(result) for unit in match.groups() if unit is not None]
-
+            if debug is True:
+                print(result)
 
         return result
 
@@ -82,5 +83,5 @@ if __name__ == "__main__":
     with open("replacements.txt") as f:
         replacements = f.read()
     obj = Epigraph2Markup(replacements)
-    x = obj.convert("[3]ostum[3] / aed(ilem) o(ro) v(os) f(aciatis) / d(ignum) r(ei) p(ublicae)")
-    #print(x)
+    x = obj.convert("Sittium a[e]d(ilem) [o(ro) v(os)] f(aciatis)", debug=True)
+    print(x)
