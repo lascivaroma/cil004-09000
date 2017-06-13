@@ -1,26 +1,26 @@
-<work groupUrn="urn:cts:pompei:cil004-00400" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" urn="urn:cts:pompei:cil004-00400.00493" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:saws="http://purl.org/saws/ontology#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns="http://chs.harvard.edu/xmlns/cts" xml:lang="None" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<work groupUrn="urn:cts:pompei:cil004-00400" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="None" xmlns:saws="http://purl.org/saws/ontology#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" urn="urn:cts:pompei:cil004-00400.00493" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:dct="http://purl.org/dc/terms/" xmlns:dts="http://w3id.org/dts-ontology/">
 <title xml:lang="eng">00493</title>
 <cpt:structured-metadata>
-<rdfs:label xml:lang="eng">00493</rdfs:label>
-<saws:identifier >www.trismegistos.org/text/523145</saws:identifier>
 <saws:isLocatedAt >Pompei</saws:isLocatedAt>
+<rdfs:label xml:lang="eng">00493</rdfs:label>
 <dc:identifier >EDCS-28000424</dc:identifier>
 <saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
-<skos:prefLabel xml:lang="eng">00493</skos:prefLabel>
+<saws:identifier >www.trismegistos.org/text/523145</saws:identifier>
 <saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<skos:prefLabel xml:lang="eng">00493</skos:prefLabel>
 </cpt:structured-metadata>
-<edition workUrn="urn:cts:pompei:cil004-00400.00493" xml:lang="lat" urn="urn:cts:pompei:cil004-00400.00493.manfred-lat1">
+<edition xml:lang="lat" workUrn="urn:cts:pompei:cil004-00400.00493" urn="urn:cts:pompei:cil004-00400.00493.manfred-lat1">
 <label xml:lang="eng">00493</label>
 <description xml:lang="None">Automatically converted from Manfred Klaus database</description>
 <cpt:structured-metadata>
-<dct:contributor >Thibault Clérice</dct:contributor>
-<dc:format >text/xml</dc:format>
-<skos:prefLabel xml:lang="eng">00493</skos:prefLabel>
-<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
 <dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
 <rdfs:label xml:lang="eng">00493</rdfs:label>
-<dct:contributor >Manfred Klaus</dct:contributor>
+<dct:contributor >Thibault Clérice</dct:contributor>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<skos:prefLabel xml:lang="eng">00493</skos:prefLabel>
 <dc:language >lat</dc:language>
+<dc:format >text/xml</dc:format>
+<dct:contributor >Manfred Klaus</dct:contributor>
 </cpt:structured-metadata>
 </edition>
 </work>
