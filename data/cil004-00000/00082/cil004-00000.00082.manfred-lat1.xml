@@ -55,7 +55,7 @@
     <text>
         <body>
             <div type="edition" n="urn:cts:pompei:cil004-00000.00082.manfred-lat1" xml:lang="lat">
-                <ab><w n="1"><supplied reason="lost">P</supplied>om<supplied reason="lost">ponium(?)</supplied></w> <lb n="1"/> <w n="2"><supplied reason="lost">ae</supplied><expan><abbr>d</abbr><ex>ilem</ex></expan></w> <w n="3"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="5">o<supplied reason="lost">ro</w> <w n="6"><expan><abbr>v</abbr><ex>os</ex></expan></w> <w n="7"><expan><abbr>f</abbr><ex cert="low">aciatis</ex></expan></supplied></w></ab>
+                <ab><w n="1"><supplied reason="lost">P</supplied>om<supplied reason="lost">ponium(?)</supplied></w> <lb n="1"/> <w n="2"><supplied reason="lost">ae</supplied><expan><abbr>d</abbr><ex>ilem</ex></expan></w> <w n="3"><expan><abbr>v</abbr><ex>irum</ex></expan></w> <w n="4"><expan><abbr>b</abbr><ex>onum</ex></expan></w> <w n="5">o<supplied reason="lost">ro</supplied></w> <w n="6"><supplied reason="lost"><expan><abbr>v</abbr><ex>os</ex></expan></supplied></w> <w n="7"><supplied reason="lost"><expan><abbr>f</abbr><ex cert="low">aciatis</ex></expan></supplied></w></ab>
             </div>
         </body>
     </text>
