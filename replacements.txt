@@ -10,14 +10,21 @@
 # occurences of the symbol in the second capturing group inside the first capturing group.  In
 # regular expressions, capturing groups are delimited by parentheses.
 
-
+# Normalization
 (\[\s*\/)                                                         =   [?] /
+
 # / ]tus                                                          =   / []tus
 (\/\s*\])                                                         =   / [?]
+
+# / ]tus                                                          =   Nu[mis]iu[m /
+\/\s*(\w+)\]                                                      =   / [?] [$1]
+\[(\w+)\s*\/                                                      =   [$1] [?] /
 \[([\w\(\)\?\!]+) ([\w\(\)\?\!]+)\]                               =   [$1] [$2]
-\[([\w\(\)\?\!]+) ([\w\(\)\?\!]+) ([\w\(\)\?\!]+)\]                   =   [$1] [$2] [$3]
-([^\s/]+)                                   =   <w n="%mkIDW">$1</w>
-\/(?!\w)									=	<lb n="%mkID1"/>
+\[([\w\(\)\?\!]+) ([\w\(\)\?\!]+) ([\w\(\)\?\!]+)\]               =   [$1] [$2] [$3]
+
+# Words and new lines
+([^\s/]+)                                                         =   <w n="%mkIDW">$1</w>
+\/(?!\w)									                      =	  <lb n="%mkID1"/>
 
 
 # Single Angle Bracket Enclosures
