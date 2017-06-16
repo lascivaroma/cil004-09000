@@ -5,7 +5,7 @@
         xmlns:dts="http://w3id.org/dts-ontology/"
         xmlns:cpt="http://purl.org/capitains/ns/1.0#"
         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:rdf="http://www.w3.org/2000/01/rdf-schema#"
         xmlns:saws="http://purl.org/saws/ontology#"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         urn="{{urn}}">

@@ -101,7 +101,6 @@ with open("sources/Epigraphik Datenbank.html") as source:
         epi_converter.reset()
 
         text_converted = epi_converter.convert(text)
-        print(text_id, text, text_converted)
         text_xml = template.render(title=text_id, xml=text_converted, urn=urn)
 
         work = XmlCtsWorkMetadata(urn=(URN(urn)).upTo(URN.WORK))

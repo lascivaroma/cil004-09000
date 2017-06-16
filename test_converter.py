@@ -14,7 +14,7 @@ class TestClauss(TestCase):
     def test_automatic(self):
         for text_info, line, output in self.tests_strings:
             self.assertEqual(
-                self.converter.convert(line, debug=self.debug), output,
+                self.converter.convert(line, debug=self.debug).replace("\n", ""), output.replace("\n", ""),
                 "{} fails".format(text_info)
             )
             self.converter.reset()
