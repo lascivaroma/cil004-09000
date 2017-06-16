@@ -4,7 +4,7 @@ from MyCapytain.common.reference import URN
 from rdflib.namespace import DC, DCTERMS, Namespace
 from lxml import etree
 import re
-from chetcorig import Epigraph2Markup
+from chetc import Epigraph2Markup
 from jinja2 import Template
 from os import makedirs, path
 
@@ -13,9 +13,6 @@ with open('templates/template.jinja.xml') as f:
     template = Template(f.read())
 with open('templates/template.textgroup.xml') as f:
     tgtemplate = Template(f.read())
-
-with open("replacements.txt") as f:
-    replacements = f.read()
 
 SAWS = Namespace("http://purl.org/saws/ontology#")
 
@@ -32,7 +29,7 @@ TRISMEGISTOS_PLACE = re.compile("http:\/\/www\.trismegistos\.org\/place\/(\w+)")
 PUBLICATION = re.compile("publication:<\/b>([a-z,\-\+\/\*A-Z =\(\)0-9]+)<[ab]")
 ORT = re.compile("ort='([[a-zA-Z\s\/\-]+)'&amp;latitude='(\d+\.\d+)'&amp;longitude='(\d+\.\d+)'&amp;")
 
-epi_converter = Epigraph2Markup(replacements)
+epi_converter = Epigraph2Markup()
 
 with open("sources/Epigraphik Datenbank.html") as source:
     xml = etree.parse(source)
@@ -102,7 +99,9 @@ with open("sources/Epigraphik Datenbank.html") as source:
 
         text = p.xpath(".//br")[-1].tail.replace("&lt;", "<").replace("\n", "").replace("&gt;", ">")
         epi_converter.reset()
+
         text_converted = epi_converter.convert(text)
+        print(text_id, text, text_converted)
         text_xml = template.render(title=text_id, xml=text_converted, urn=urn)
 
         work = XmlCtsWorkMetadata(urn=(URN(urn)).upTo(URN.WORK))
@@ -129,7 +128,7 @@ with open("sources/Epigraphik Datenbank.html") as source:
         edition.set_cts_property("description", "Automatically converted from Manfred Klaus database")
         edition.metadata.add(DCTERMS.term("provenance"), "http://manfredclauss.de/gb/index.html")
         edition.metadata.add(DCTERMS.term("source"), "http://www.worldcat.org/oclc/459220842")
-        edition.metadata.add(DCTERMS.term("contributor"), "Manfred Klaus")
+        edition.metadata.add(DCTERMS.term("contributor"), "Manfred Claus")
         edition.metadata.add(DCTERMS.term("contributor"), "Thibault Clérice")
         edition.metadata.add(DC.term("format"), "text/xml")
 
@@ -149,4 +148,4 @@ with open("sources/Epigraphik Datenbank.html") as source:
             metadata.write(work.export(Mimetypes.XML.CapiTainS.CTS).replace("<work", "<work groupUrn=\"{}\"".format(
                 "urn:cts:pompei:"+tgid
             )))
-        i +=1
+        i += 1

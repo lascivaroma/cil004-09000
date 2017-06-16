@@ -1,123 +1,225 @@
-__all__ = ['chetc']
+import re
 
-# Don't look below, you will not understand this Python code :) I don't.
+SPACES = re.compile("\s+")
+GLOBALS = re.compile("%g\d")
+LINE_SPLIT = re.compile("\s+=\s+")
+MAKE_ID = re.compile("(%mkID\d+)")
+MAKE_ID_LB = re.compile("%mkIDlb(\d)")
+MAKE_ID_W = re.compile("%mkIDW")
+DOLLAR_TARGET = re.compile("($\d)+")
 
-from js2py.pyjs import *
-# setting scope
-var = Scope( JS_BUILTINS )
-set_global_object(var)
 
-# Code follows:
-var.registers(['Epigraph2Markup'])
-@Js
-def PyJsHoisted_Epigraph2Markup_(replacements, this, arguments, var=var):
-    var = Scope({'arguments':arguments, 'this':this, 'replacements':replacements}, var)
-    var.registers(['replacements'])
-    @Js
-    def PyJs_anonymous_1_(ignore, this, arguments, var=var):
-        var = Scope({'arguments':arguments, 'ignore':ignore, 'this':this}, var)
-        var.registers(['ignore'])
-        if (var.get('ignore')==Js('true')):
-            var.get(u"this").put('ignoreLB', var.get('true'))
+class MANFRED:
+    word_matcher_regularization = "[\w\(\)\?\!]"
+    word_matcher_plus_square_brkcts = "[\w\[\]\?\!]"
+
+    @staticmethod
+    def replacements():
+        x = [
+            ##########################################
+            # Normalization Phase
+            ##########################################
+
+            # When a line ends with an unknown content
+            ("(\[\s*\/)", "[?] /"),
+
+            # WHen a line ends with a provided character and an unknown loss
+            ("(\[("+MANFRED.word_matcher_regularization+"*)\s*\/)",
+                "[$1] [?] /"),
+            ("\[("+MANFRED.word_matcher_regularization+"+)\s*$",
+                "[$1] [?]"),
+
+            # When a line starts with an unknown content
+            ('(\/\s*\])',
+                '/ [?]'),
+
+            # When a line starts with a provided character and an unknown content
+            ('(\/\s*('+MANFRED.word_matcher_regularization+'*)\])',
+                '/ [?] [$1]'),
+            ('^(\s*('+MANFRED.word_matcher_regularization+'*)\])',
+                '[?] [$1]'),
+
+            # When two words are spanning inside the same provided lqcuna : [abc(ade!) abc(e)x(z!)]
+            ('\[('+MANFRED.word_matcher_regularization+'+) ('+MANFRED.word_matcher_regularization+'+)\]',
+                '[$1] [$2]'),
+
+            # When three words are spanning inside the same provided lqcuna : [abc(ade!) abc(e)x(z!) abc(e)x(z!)]
+            ('\[('+MANFRED.word_matcher_regularization+'+) ('+MANFRED.word_matcher_regularization+'+) ('+MANFRED.word_matcher_regularization+'+)\]',
+                '[$1] [$2] [$3]'),
+
+            # Replace angular bracket by curved bracked
+            ("<", "«"),
+            (">", "»"),
+
+            ##########################################
+            # Word and line tagging
+            ##########################################
+
+            # Tag a word
+            ('([^\s/]+)',
+                '<w n="%mkIDW">$1</w>'),
+            # Tag multiple lines
+            ('(\/{2})(?!\w\>)',
+             '<lb n="%mkIDlb1"/><gap extend="unknown" reason="lost" units="line" />'),
+            # Tag a line
+            ('(\/)(?![\w\>]+)',
+                '<lb n="%mkIDlb1"/>'),
+
+            ##########################################
+            # Angular bracket markup
+            ##########################################
+
+            # Correction
+            ("«(\w+)=(\w+)»",
+                "<choice><supplied>$1</supplied><sic>$2</sic></choice>"),
+
+            # Here texts are listed that have been created to fill erased passages
+            ("««([\w\(\)\?\!])»»",
+                "<del>$1</del>"), # Not so sure about this one [Meaning of the legend]
+
+            # Here text have been erased and something was filled by an ancient hand
+            ("««\[\[([\w\(\)\?\!])\]\]»»}",
+                "<add place=\"overstrike\">$1</add>"),
+
+            ##########################################
+            # Curly brackets
+            ##########################################
+
+            # Replace curly brackets
+            ("\{((?:\w|\s)+)\}",
+                "<sic>$1</sic>"),
+
+            ##########################################
+            # Parentheses in Brackets
+            ##########################################
+
+            # Abbreviation inside Parentheses, even with supplied inside
+            ("\[("+MANFRED.word_matcher_plus_square_brkcts+"*)\((\w+)\)("+MANFRED.word_matcher_plus_square_brkcts+"*)\]",
+                "<supplied reason=\"lost\"><expan><abbr>$1</abbr><ex>$2</ex><abbr>$3</abbr></expan></supplied>"),
+
+            ##########################################
+            # Parentheses
+            ##########################################
+
+            # Parentheses, even with supplied inside
+            ("("+MANFRED.word_matcher_plus_square_brkcts+"*)\((\w+)\)("+MANFRED.word_matcher_plus_square_brkcts+"*)",
+                "<expan><abbr>$1</abbr><ex>$2</ex><abbr>$3</abbr></expan>"),
+
+            # Parentheses with uncertain
+            ("("+MANFRED.word_matcher_plus_square_brkcts+"*)\((\w+)(?:(?:\?)|(?:\(\?\)))\)("+MANFRED.word_matcher_plus_square_brkcts+"*)",
+                "<expan><abbr>$1</abbr><ex certain=\"low\">$2</ex><abbr>$3</abbr></expan>"),
+
+            # Parentheses with unextended parentheses
+            ("("+MANFRED.word_matcher_plus_square_brkcts+"*)\(\)("+MANFRED.word_matcher_plus_square_brkcts+"*)",
+                "<expan><abbr>$1</abbr><abbr>$2</abbr></expan>"),
+
+            ##########################################
+            # Brackets
+            ##########################################
+
+            # When the loss' extent is unknown
+            ("\[\?\]",
+                '<gap reason="lost" extent="unknown" unit="character"/>'),
+
+            # When the loss' extent is quantified
+            ("\[(\d+)\]",
+                '<gap reason="lost" extent="$1" unit="character"/>'),
+
+            # When the loss' extent is quantified but unsure
+            ("\[(\d+)\?\]",
+                '<gap reason="lost" extent="$1" unit="character" certainty="low"/>'),
+            ("\[(\d+)\(\?\)\]",
+                '<gap reason="lost" extent="$1" unit="character" certainty="low"/>'),
+
+            # When we supply an uncertain replacement
+            ("\[(" + MANFRED.word_matcher_regularization + "+)\?\]",
+             '<supplied reason="lost" certainty="low">$1</supplied>'),
+            ("\[(" + MANFRED.word_matcher_regularization + "+)\(\?\)\]",
+             '<supplied reason="lost" certainty="low">$1</supplied>'),
+            ("(\w*)\[(" + MANFRED.word_matcher_regularization + "+)\](\w*)\(\?\)",
+             '$1<supplied reason="lost" certainty="low">$2</supplied>$3'),
+
+            # When we supply a replacement
+            ("\[("+MANFRED.word_matcher_regularization+"+)\]",
+                '<supplied reason="lost">$1</supplied>'),
+
+            ##########################################
+            # Clean Up
+            ##########################################
+            ("(<abbr></abbr>)", "")
+
+        ]
+        for pattern, replacement in x:
+            yield re.compile(pattern), replacement
+
+
+class Epigraph2Markup(object):
+    def __init__(self, replacements=None):
+        self.replacements = list(MANFRED.replacements())
+        self.lineNum = 0
+        self.wNum = 0
+        self.id = 0
+        self.ignoreLB = False
+
+        if replacements is not None:
+            for line in replacements.split("\n"):
+                if not line.startswith("#") and "=" in line:
+                    pattern, replacement = tuple(LINE_SPLIT.split(line, maxsplit=1))
+                    pattern, replacement = pattern.strip(), replacement.strip()
+                    if replacement == "null":
+                        replacement = ""
+                    self.replacements.append((re.compile(pattern), replacement))
+
+    def reset(self):
+        self.lineNum = 0
+        self.id = 0
+        self.wNum = 0
+
+    def count(self, text, find):
+        """ Count the number of match of find in text or the length of characters of find
+
+        :param text:
+        :param find:
+        :return:
+        """
+        if text == find:
+            return len(SPACES.sub("", text))
         else:
-            var.get(u"this").put('ignoreLB', Js(False))
-    PyJs_anonymous_1_._set_name('anonymous')
-    @Js
-    def PyJs_anonymous_2_(this, arguments, var=var):
-        var = Scope({'arguments':arguments, 'this':this}, var)
-        var.registers(['unicodeLetters'])
-        var.put('unicodeLetters', Js('[A-Za-zªµºÀ-ÖØ-öø-ƺƼ-ƿ Ǆ-ʭΆΈ-ҁҌ-Ֆա-ևႠ-ჅḀ-ᾼιῂ-ῌ ῐ-Ίῠ-Ῥῲ-ῼⁿℂℇℊ-ℓℕℙ-ℝℤΩ ℨK-ℭℯ-ℱℳℴℹﬀ-ﬗＡ-Ｚａ-ｚ]'))
-        var.get(u"this").put('replacements', var.get('Array').create())
-        var.put('lines', var.get(u"this").get('replacementStr').callprop('split', JsRegExp('/\\r?\\n/')))
-        #for JS loop
-        var.put('i', Js(0.0))
-        while (var.get('i')<var.get('lines').get('length')):
-            try:
-                var.put('line', var.get('lines').get(var.get('i')))
-                if ((var.get('line').callprop('charAt', Js(0.0))!=Js('#')) and var.get('line').callprop('match', JsRegExp('/^\\s*$/')).neg()):
-                    if (var.get(u"this").get('ignoreLB') and var.get('line').callprop('match', JsRegExp('/^\\\\n/'))).neg():
-                        var.put('repl', var.get('line').callprop('split', JsRegExp('/\\s+=\\s+/')))
-                        if (var.get('repl').get('length')==Js(2.0)):
-                            var.get('repl').put('0', var.get('repl').get('0').callprop('replace', JsRegExp('/\\\\w/g'), var.get('unicodeLetters')))
-                            if (var.get('repl').get('1')==Js('null')):
-                                var.get('repl').put('1', Js(''))
-                            var.get(u"this").get('replacements').callprop('push', var.get('repl'))
-            finally:
-                    (var.put('i',Js(var.get('i').to_number())+Js(1))-Js(1))
-    PyJs_anonymous_2_._set_name('anonymous')
-    @Js
-    def PyJs_anonymous_3_(txt, find, this, arguments, var=var):
-        var = Scope({'find':find, 'txt':txt, 'arguments':arguments, 'this':this}, var)
-        var.registers(['find', 'txt'])
-        if (var.get('txt')==var.get('find')):
-            var.put('result', var.get('txt').callprop('replace', JsRegExp('/\\s/g'), Js('')).get('length'))
-        else:
-            var.put('result', Js(0.0))
-            var.put('compare', var.get('txt'))
-            while (var.get('compare').callprop('indexOf', var.get('find'))>=Js(0.0)):
-                (var.put('result',Js(var.get('result').to_number())+Js(1))-Js(1))
-                var.put('compare', var.get('compare').callprop('substr', (var.get('compare').callprop('indexOf', var.get('find'))+var.get('find').get('length'))))
-        return var.get('result')
-    PyJs_anonymous_3_._set_name('anonymous')
-    @Js
-    def PyJs_anonymous_4_(text, this, arguments, var=var):
-        var = Scope({'text':text, 'arguments':arguments, 'this':this}, var)
-        var.registers(['text', 'repl', 'result', 'idPattern', 'replace', 'targPattern', 'g', 'len', 'pattern', 're'])
-        var.put('result', var.get('text'))
-        #for JS loop
-        var.put('i', Js(0.0))
-        while (var.get('i')<var.get(u"this").get('replacements').get('length')):
-            try:
-                var.put('repl', var.get(u"this").get('replacements').get(var.get('i')))
-                var.put('replace', var.get('repl').get('1'))
-                if var.get('replace').callprop('match', JsRegExp('/%g/')):
-                    var.put('pattern', var.get('RegExp').create(var.get('repl').get('0')))
-                    while var.put('matches', var.get('result').callprop('match', var.get('pattern'))):
-                        var.put('g', Js(0.0))
-                        var.put('len', Js(0.0))
-                        var.put('re', JsRegExp('/%g(\\d)/'))
-                        if var.put('captured', var.get('re').callprop('exec', var.get('replace'))):
-                            var.put('g', var.get('captured').get('1'))
-                            var.put('replace', var.get('replace').callprop('replace', JsRegExp('/%g\\d/g'), Js('')))
-                            var.put('re', JsRegExp('/%len(\\d)/'))
-                            if var.put('captured', var.get('re').callprop('exec', var.get('replace'))):
-                                var.put('len', var.get('captured').get('1'))
-                                var.put('replace', var.get('replace').callprop('replace', JsRegExp('/%len\\d/g'), var.get(u"this").callprop('count', var.get('matches').get(var.get('g')), var.get('matches').get(var.get('len')))))
-                                var.put('result', var.get('result').callprop('replace', var.get('pattern'), var.get('replace')))
-                        var.put('replace', var.get('repl').get('1'))
-                else:
-                    var.put('pattern', var.get('RegExp').create(var.get('repl').get('0'), Js('g')))
-                    var.put('result', var.get('result').callprop('replace', var.get('pattern'), var.get('replace')))
-                while var.put('ids', var.get('result').callprop('match', JsRegExp('/id="%mkID(\\d)"/'))):
-                    if (var.get('parseFloat')(var.get(u"this").get('id'))<Js(9.0)):
-                        var.get(u"this").put('id', (Js('0')+(var.get('parseFloat')(var.get(u"this").get('id'))+Js(1.0))))
-                    else:
-                        var.get(u"this").put('id', (Js('')+(var.get('parseFloat')(var.get(u"this").get('id'))+Js(1.0))))
-                    var.get(u"this").put('id', (Js('gap')+var.get(u"this").get('id')))
-                    var.put('idPattern', var.get('RegExp').create(((Js('(id=")%mkID')+var.get('ids').get('1'))+Js('(")'))))
-                    var.put('result', var.get('result').callprop('replace', var.get('idPattern'), ((Js('$1')+var.get(u"this").get('id'))+Js('$2'))))
-                    if var.get('replace').callprop('match', JsRegExp('/target="%mkID\\d"/')):
-                        var.put('targPattern', var.get('RegExp').create(((Js('(target=")%mkID')+var.get('ids').get('1'))+Js('(")'))))
-                        var.put('result', var.get('result').callprop('replace', var.get('targPattern'), ((Js('$1')+var.get(u"this").get('id'))+Js('$2'))))
-                    var.get(u"this").put('id', var.get(u"this").get('id').callprop('substr', Js(3.0)))
-                while var.put('lines', var.get('result').callprop('match', JsRegExp('/lb n="%mkID(\\d)"/'))):
-                    var.get(u"this").put('lineNum', (Js('')+(var.get('parseFloat')(var.get(u"this").get('lineNum'))+Js(1.0))))
-                    var.put('idPattern', var.get('RegExp').create(((Js('(lb n=")%mkID')+var.get('lines').get('1'))+Js('(")'))))
-                    var.put('result', var.get('result').callprop('replace', var.get('idPattern'), ((Js('$1')+var.get(u"this").get('lineNum'))+Js('$2'))))
-                    if var.get('replace').callprop('match', JsRegExp('/target="%mkID\\d"/')):
-                        var.put('targPattern', var.get('RegExp').create(((Js('(target=")%mkID')+var.get('lines').get('1'))+Js('(")'))))
-                        var.put('result', var.get('result').callprop('replace', var.get('targPattern'), ((Js('$1')+var.get(u"this").get('lineNum'))+Js('$2'))))
-            finally:
-                    (var.put('i',Js(var.get('i').to_number())+Js(1))-Js(1))
-        return var.get('result')
-    PyJs_anonymous_4_._set_name('anonymous')
-    PyJs_Object_0_ = Js({'id':var.get('String').create(Js('00')),'lineNum':var.get('String').create(Js('01')),'replacementStr':var.get('replacements'),'ignoreLB':Js(False),'lineBreaks':PyJs_anonymous_1_,'init':PyJs_anonymous_2_,'count':PyJs_anonymous_3_,'convert':PyJs_anonymous_4_})
-    return PyJs_Object_0_
-PyJsHoisted_Epigraph2Markup_.func_name = 'Epigraph2Markup'
-var.put('Epigraph2Markup', PyJsHoisted_Epigraph2Markup_)
-pass
-pass
+            return text.count(find)
 
+    def lb(self, match):
+        self.lineNum += 1
+        return str(self.lineNum)
 
-# Add lib to the module scope
-chetc = var.to_python()
+    def w(self, match):
+        self.wNum += 1
+        return str(self.wNum)
+
+    def replace(self, replacement_string):
+        def temp(sub_output):
+            output = ""+replacement_string
+            groups = sub_output.groups()
+            for i in range(len(groups)):
+                output = output.replace("$"+str(i+1), groups[i] or "")
+            return output
+        return temp
+
+    def convert(self, text, debug=False):
+        result = "" + text
+        for pattern, replacement in self.replacements:  # For each replacement
+
+            result = pattern.sub(self.replace(replacement), result)
+
+            lbs = []
+            make_ids = [unit for match in MAKE_ID.findall(result) for unit in match.groups() if unit is not None]
+            if debug is True:
+                print(result)
+
+        result = MAKE_ID_W.sub(self.w, result)
+        result = MAKE_ID_LB.sub(self.lb, result)
+        return result
+
+if __name__ == "__main__":
+    obj = Epigraph2Markup()
+    x = obj.convert("Sittium a[e]d(ilem) [o(ro) v(os)] f(aciatis)", debug=False)
+    print(x)
