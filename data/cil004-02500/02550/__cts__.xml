@@ -1,0 +1,100 @@
+<work groupUrn="urn:cts:pompei:cil004-02500" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xml:lang="None" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:saws="http://purl.org/saws/ontology#" urn="urn:cts:pompei:cil004-02500.02550">
+<title xml:lang="eng">02550</title>
+<cpt:structured-metadata>
+<dc:identifier >EDCS-26500491</dc:identifier>
+<rdfs:label xml:lang="eng">02550</rdfs:label>
+<dc:identifier >EDCS-26500497</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525505</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525494</saws:identifier>
+<dc:identifier > CIL 10, 08356</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525498</saws:identifier>
+<saws:isLocatedAt >long:14.4891718;lat:40.7498815</saws:isLocatedAt>
+<dc:identifier >EDCS-26500332</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525478</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525489</saws:identifier>
+<dc:identifier >EDCS-26500363</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525482</saws:identifier>
+<dc:identifier >EDCS-29300572</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525502</saws:identifier>
+<dc:identifier >EDCS-26500307</dc:identifier>
+<dc:identifier >EDCS-26500309</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525497</saws:identifier>
+<dc:identifier >EDCS-26500530</dc:identifier>
+<dc:identifier >EDCS-26500516</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525491</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525486</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525506</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525508</saws:identifier>
+<saws:isLocatedAt >http://www.trismegistos.org/place/2788</saws:isLocatedAt>
+<saws:identifier >www.trismegistos.org/text/525475</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525501</saws:identifier>
+<dc:identifier >EDCS-29300573</dc:identifier>
+<saws:isLocatedAt >Pompei</saws:isLocatedAt>
+<saws:identifier >www.trismegistos.org/text/525481</saws:identifier>
+<dc:identifier >EDCS-23400188</dc:identifier>
+<dc:identifier >EDCS-26500490</dc:identifier>
+<dc:identifier >EDCS-26500320</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525492</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525485</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525483</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525495</saws:identifier>
+<dc:identifier >EDCS-23400185</dc:identifier>
+<dc:identifier >EDCS-26500541</dc:identifier>
+<dc:identifier >EDCS-29300574</dc:identifier>
+<skos:prefLabel xml:lang="eng">02550</skos:prefLabel>
+<saws:identifier >www.trismegistos.org/text/525500</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525480</saws:identifier>
+<dc:identifier >EDCS-23400189</dc:identifier>
+<dc:identifier >EDCS-26500509</dc:identifier>
+<dc:identifier >EDCS-26500341</dc:identifier>
+<dc:identifier >EDCS-26500522</dc:identifier>
+<dc:identifier >EDCS-26500421</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525488</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525507</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525479</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525496</saws:identifier>
+<dc:identifier >EDCS-26500542</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525493</saws:identifier>
+<dc:identifier > CIL 10, 08361</dc:identifier>
+<dc:identifier >EDCS-26500482</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525487</saws:identifier>
+<dc:identifier > CIL 10, 08359</dc:identifier>
+<dc:identifier >EDCS-26500510</dc:identifier>
+<dc:identifier >EDCS-26500470</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/171169</saws:identifier>
+<dc:identifier >EDCS-26500316</dc:identifier>
+<dc:identifier >EDCS-26500505</dc:identifier>
+<dc:identifier >EDCS-26500401</dc:identifier>
+<dc:identifier >EDCS-26500322</dc:identifier>
+<dc:identifier >EDCS-26500479</dc:identifier>
+<dc:identifier >EDCS-23400190</dc:identifier>
+<dc:identifier >EDCS-26500489</dc:identifier>
+<dc:identifier > CIL 10, 08360</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525490</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525504</saws:identifier>
+<dc:identifier >EDCS-26500364</dc:identifier>
+<dc:identifier >EDCS-26500459</dc:identifier>
+<dc:identifier >EDCS-26500450</dc:identifier>
+<dc:identifier >EDCS-26500521</dc:identifier>
+<saws:identifier >www.trismegistos.org/text/525499</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525474</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525477</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525484</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525503</saws:identifier>
+<saws:identifier >www.trismegistos.org/text/525476</saws:identifier>
+</cpt:structured-metadata>
+<edition urn="urn:cts:pompei:cil004-02500.02550.manfred-lat1" xml:lang="lat" workUrn="urn:cts:pompei:cil004-02500.02550">
+<label xml:lang="eng">02550</label>
+<description xml:lang="None">Automatically converted from Manfred Klaus database</description>
+<cpt:structured-metadata>
+<dc:language >lat</dc:language>
+<skos:prefLabel xml:lang="eng">02550</skos:prefLabel>
+<dct:provenance >http://manfredclauss.de/gb/index.html</dct:provenance>
+<rdfs:label xml:lang="eng">02550</rdfs:label>
+<dct:contributor >Thibault Clérice</dct:contributor>
+<dct:contributor >Manfred Claus</dct:contributor>
+<dct:source >http://www.worldcat.org/oclc/459220842</dct:source>
+<dc:format >text/xml</dc:format>
+</cpt:structured-metadata>
+</edition>
+</work>

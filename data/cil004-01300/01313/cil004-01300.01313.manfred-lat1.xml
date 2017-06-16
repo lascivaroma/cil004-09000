@@ -1,0 +1,62 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>01313</title>
+                <editor role="editor"><name>Schöne</name>, <forename>Richard</forename></editor>
+                <editor role="editor"><name>Zangemeister</name>, <forename>Karl Friedrich Wilhelm</forename></editor>
+                <editor><forename>Manfred</forename> <name>Klaus</name></editor>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Thibault Clérice</publisher>
+                <!-- This data has been produced in the context of Thibault's 
+                    Clérice's PhD at the University of Lyon 3 and under contract at the Ecole Nationale des Chartes -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="collection">Corpus Inscriptionum Latinarum</title>
+                    <idno>Vol IV</idno>
+                    <title type="volume">Inscriptiones parietariae Pompeianae, Herculanenses Stabianae</title>
+                    <editor role="editor"><name>Schöne</name>, <forename>Richard</forename></editor>
+                    <editor role="editor"><name>Zangemeister</name>, <forename>Karl Friedrich Wilhelm</forename></editor>
+                    <pubPlace>Leipzig</pubPlace>
+                    <date>1925/1976</date>
+                </bibl>
+                <bibl>
+                    <title>Epigraphische Datenbank Clauss - Slaby</title>
+                    <editor><forename>Manfred</forename> <name>Klaus</name></editor>
+                    <date>12-06-2017</date>
+                    <ref>http://manfredclauss.de/gb/index.html</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="word"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:ab/tei:w[@n='$1'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-12" who="Thibault Clérice">Converted to EpiDoc/CapiTainS from Manfred Klaus website using https://github.com/lascivaroma/pompei-inscriptions/blob/be6de98/converter.manfred.py</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:pompei:cil004-01300.01313.manfred-lat1" xml:lang="lat">
+                <ab><w n="1">vales</w> <lb n="1"/> <w n="2">Or</w> <w n="3">I</w> <w n="4">remani</w> <w n="5">C</w> <w n="6">Tolle</w> <lb n="2"/> <w n="7">Manus</w> <w n="8">et</w> <w n="9">if</w> <w n="10">Cequicraces</w> <w n="11">perperam</w> <w n="12">pugnas</w> <lb n="3"/> <w n="13">ucangiliccs</w> <w n="14">ubirevis</w> <lb n="4"/> <w n="15">et</w> <w n="16">Nunne</w> <w n="17">Simequam</w> <lb n="5"/> <w n="18">acutas</w> <w n="19">quam</w> <w n="20">delicatas</w> <lb n="6"/> <w n="21">times</w> <w n="22">vao</w> <w n="23">non</w> <w n="24">potest</w> <lb n="7"/> <w n="25">Efficeremecrisi</w> <w n="26">III</w> <lb n="8"/> <w n="27">tibi</w> <w n="28">fer<gap reason="lost" extent="3" unit="character"/>onec</w> <w n="29">per</w> <lb n="9"/> <w n="30">iai</w> <w n="31">iteme</w> <w n="32">pater</w></ab>
+            </div>
+        </body>
+    </text>
+</TEI>
