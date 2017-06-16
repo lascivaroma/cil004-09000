@@ -60,7 +60,7 @@ class MANFRED:
                 '<w n="%mkIDW">$1</w>'),
             # Tag multiple lines
             ('(\/{2})(?!\w\>)',
-             '<lb n="%mkIDlb1"/><gap extend="unknown" reason="lost" units="line" />'),
+             '<lb n="%mkIDlb1"/><gap extent="unknown" reason="lost" unit="line" />'),
             # Tag a line
             ('(\/)(?![\w\>]+)',
                 '<lb n="%mkIDlb1"/>'),
@@ -71,7 +71,7 @@ class MANFRED:
 
             # Correction
             ("«(\w+)=(\w+)»",
-                "<choice><supplied>$1</supplied><sic>$2</sic></choice>"),
+                "<choice><corr>$1</corr><sic>$2</sic></choice>"),
 
             # Here texts are listed that have been created to fill erased passages
             ("««([\w\(\)\?\!])»»",
@@ -107,11 +107,11 @@ class MANFRED:
 
             # Parentheses with uncertain
             ("("+MANFRED.word_matcher_plus_square_brkcts+"*)\((\w+)(?:(?:\?)|(?:\(\?\)))\)("+MANFRED.word_matcher_plus_square_brkcts+"*)",
-                "<expan><abbr>$1</abbr><ex certain=\"low\">$2</ex><abbr>$3</abbr></expan>"),
+                "<expan><abbr>$1</abbr><ex cert=\"low\">$2</ex><abbr>$3</abbr></expan>"),
 
-            # Parentheses with unextended parentheses
+            # Parentheses with unextented parentheses
             ("("+MANFRED.word_matcher_plus_square_brkcts+"*)\(\)("+MANFRED.word_matcher_plus_square_brkcts+"*)",
-                "<expan><abbr>$1</abbr><abbr>$2</abbr></expan>"),
+                "<abbr>$1</abbr><abbr>$2</abbr>"),
 
             ##########################################
             # Brackets
@@ -127,17 +127,17 @@ class MANFRED:
 
             # When the loss' extent is quantified but unsure
             ("\[(\d+)\?\]",
-                '<gap reason="lost" extent="$1" unit="character" certainty="low"/>'),
+                '<gap reason="lost" extent="$1" unit="character" cert="low"/>'),
             ("\[(\d+)\(\?\)\]",
-                '<gap reason="lost" extent="$1" unit="character" certainty="low"/>'),
+                '<gap reason="lost" extent="$1" unit="character" cert="low"/>'),
 
             # When we supply an uncertain replacement
             ("\[(" + MANFRED.word_matcher_regularization + "+)\?\]",
-             '<supplied reason="lost" certainty="low">$1</supplied>'),
+             '<supplied reason="lost" cert="low">$1</supplied>'),
             ("\[(" + MANFRED.word_matcher_regularization + "+)\(\?\)\]",
-             '<supplied reason="lost" certainty="low">$1</supplied>'),
+             '<supplied reason="lost" cert="low">$1</supplied>'),
             ("(\w*)\[(" + MANFRED.word_matcher_regularization + "+)\](\w*)\(\?\)",
-             '$1<supplied reason="lost" certainty="low">$2</supplied>$3'),
+             '$1<supplied reason="lost" cert="low">$2</supplied>$3'),
 
             # When we supply a replacement
             ("\[("+MANFRED.word_matcher_regularization+"+)\]",
